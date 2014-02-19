@@ -8,8 +8,10 @@
     </div>
   </div>
   <div class="hero-content">
-    <h1>Hoist the sails!</h1>
-    <span class="date">October 2nd &amp; 3rd, 2014 in Ghent, Belgium</span>
+    <h1>{{ page.herotitle }}</h1>
+    {% if page.herotagline %}
+      <span class="date">{{ page.herotagline }}</span>
+    {% endif %}
   </div>
 </header>
 
