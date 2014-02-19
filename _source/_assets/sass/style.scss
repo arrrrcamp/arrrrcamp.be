@@ -85,6 +85,9 @@ article {
     color: $green;
     border-bottom: 1px solid $green;
     display: inline-block;
+    &:not(:first-child) {
+      margin-top: 2.5em;
+    }
   }
 }
 

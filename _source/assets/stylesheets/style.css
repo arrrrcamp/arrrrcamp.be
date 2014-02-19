@@ -56,6 +56,8 @@ article {
     color: #758559;
     border-bottom: 1px solid #758559;
     display: inline-block; }
+    article h2:not(:first-child) {
+      margin-top: 2.5em; }
 
 a:link,
 a:visited,
