@@ -70,6 +70,9 @@ a:active {
   text-decoration: none;
   border-bottom: 1px solid #892b23; }
 
+ul {
+  text-align: left; }
+
 small {
   font-size: 0.75em; }
 
