@@ -1,17 +1,12 @@
-title: Website Name
-author: Your Name
-subtitle: "A nice static website, ready for design."
-description: "A nice static website, ready for design."
-
-github: username
-twitter: username
-dribbble: username
-instagram: username
+title: ArrrrCamp 2014 - October 2nd & 3rd, 2014
+author: ArrrrCamp
+subtitle: "A conference for the modern developer"
+description: "A conference for the modern developer"
 
 source: ./_source
 destination: public
 exclude: [public, Gemfile, Gemfile.lock, Rakefile, README.md]
 
-permalink: /:categories/:title
+permalink: /:date/:title
 markdown: rdiscount
 pygments: true

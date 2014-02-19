@@ -1,136 +1,223 @@
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
+@import url(normalize.css);
+@import url(bootstrap.css);
+html, body {
+  height: 100%;
+  min-height: 100%;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.5; }
 
-body {
-  line-height: 1; }
-
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-nav ul {
-  list-style: none; }
-
-blockquote, q {
-  quotes: none; }
-
-blockquote:before, blockquote:after, q:before, q:after {
-  content: none; }
-
-a {
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-  margin: 0;
-  padding: 0; }
-
-ins {
-  background-color: #ff9;
-  color: #000;
-  text-decoration: none; }
-
-mark {
-  background-color: #ff9;
-  color: #000;
-  font-style: italic;
-  font-weight: 700; }
-
-del {
-  text-decoration: line-through; }
-
-abbr[title], dfn[title] {
-  border-bottom: 1px dotted;
-  cursor: help; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0; }
-
-input, select {
-  vertical-align: middle; }
-
-body {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-  background-color: white;
-  color: #333333;
-  font-family: Georgia, Times, serif;
-  font-size: 1rem;
-  line-height: 1.5rem;
+html, body, * {
   position: relative; }
 
-a {
-  color: #02779e;
-  margin: -.2rem;
-  padding: .2rem;
-  text-decoration: none; }
-  a:visited {
-    color: #02779e; }
-  a:hover {
-    color: #63d3ff;
-    text-decoration: underline; }
-  a:active {
-    color: #333333; }
+body {
+  background: #0b0b10;
+  color: #bbb;
+  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  line-height: 1.375;
+  background: #fff; }
 
-.content {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  zoom: 1;
-  margin: 0 auto;
-  position: relative;
-  width: 100%; }
-  .content:after {
-    content: ".";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden; }
+h1, h2, h3, h4 {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif; }
 
-@media only screen and (min-width: 800px) {
-  .content {
-    max-width: 960px; } }
-@media screen and (max-device-width: 480px) {
-  html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%; } }
-.navigation {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 1em auto;
-  width: 100%; }
+section {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  border-bottom: 1px solid #ddd;
+  background: #fff;
+  color: #222; }
+  section:first-child {
+    padding-top: 0; }
 
-.navigation-home {
-  font-size: 2em;
-  font-weight: bold; }
+article {
+  padding-top: 2em;
+  padding-bottom: 2em; }
+  article p {
+    margin-top: 2em; }
 
-@media only screen and (min-width: 768px) {
-  .navigation {
-    max-width: 960px; } }
-.footer {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 1em auto;
-  width: 100%; }
+.tagline {
+  background: #0b0b10;
+  padding-top: 4em; }
+  .tagline h3 {
+    text-align: center;
+    color: #eee;
+    letter-spacing: 0.05em; }
+  .tagline section {
+    background: #0b0b10; }
 
-@media only screen and (min-width: 768px) {
-  .footer {
-    max-width: 960px; } }
+article {
+  text-align: center; }
+  article h2 {
+    text-transform: uppercase;
+    font-size: 1.618em;
+    letter-spacing: 0.05em;
+    line-height: 1.5;
+    color: #758559;
+    border-bottom: 1px solid #758559;
+    display: inline-block; }
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #b1382e;
+  line-height: 1.5; }
+
+a:hover,
+a:active {
+  color: #892b23;
+  text-decoration: none;
+  border-bottom: 1px solid #892b23; }
+
+small {
+  font-size: 0.75em; }
+
+.center {
+  text-align: center; }
+
+.absolute-center {
+  margin: auto; }
+
+.logo-container {
+  max-width: 600px;
+  margin: 0 auto; }
+
+.logo {
+  color: #fff;
+  font-size: 0.875em;
+  display: inline-block;
+  background: url("../images/arrrrcamp_logo.png") center center no-repeat;
+  background-size: cover;
+  text-indent: -99999px;
+  width: 9.375em;
+  height: 4.16em;
+  margin-top: 3.5em; }
+
+header {
+  min-width: 100%;
+  min-height: 80%;
+  margin: 0; }
+  header .hero-container {
+    position: absolute;
+    z-index: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background: linear-gradient(rgba(11, 11, 16, 0.3) 50%, #0b0b10 100%), url("../images/handelsbeurs_568.jpg");
+    background-position: top left, center center;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover; }
+  header .hero-content {
+    padding: 0 3em;
+    top: 50%;
+    position: absolute;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    text-align: center;
+    width: 100%; }
+    header .hero-content h1 {
+      margin-top: 3em;
+      text-transform: uppercase;
+      font-size: 3.25em;
+      color: #fff;
+      text-shadow: 2px 2px rgba(0, 0, 0, 0.4);
+      letter-spacing: 0.05em; }
+    header .hero-content span.date {
+      font-family: "PT Sans", Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      font-size: 0.8em;
+      color: #fff;
+      text-shadow: 2px 2px rgba(0, 0, 0, 0.4); }
+    header .hero-content p {
+      margin: 2em 0;
+      font-size: 1.2em;
+      color: #ccc;
+      text-shadow: 2px 2px rgba(0, 0, 0, 0.4); }
+    header .hero-content .btn {
+      border: 2px solid #fff;
+      color: #fff; }
+      header .hero-content .btn:hover {
+        color: #333;
+        background: #fff; }
+
+.btn {
+  display: inline-block;
+  padding: 0.8em 2em;
+  border: 1px solid #b1382e;
+  color: #b1382e;
+  border-radius: 5px;
+  transition: all 0.5s;
+  margin: 2em auto; }
+  .btn:hover, .btn:active {
+    background: #b1382e;
+    color: #fff;
+    border: 1px solid transparent;
+    transition: all 0.5s; }
+
+input[type=submit] {
+  background: transparent;
+  padding: 0.5em 1.2em;
+  margin: 1em 0;
+  display: block; }
+
+input[type=text] {
+  background: #eee;
+  border: 1px solid #758559;
+  border-radius: 3px;
+  width: 100%;
+  padding: 0.3em 0.9em; }
+
+footer section {
+  border-bottom: none; }
+  footer section:first-child {
+    padding-top: 3em; }
+  footer section h3 {
+    color: #758559;
+    font-size: 1.2em;
+    line-height: 1.8;
+    border-bottom: 1px solid #758559;
+    letter-spacing: 0.05em; }
+
+blockquote {
+  text-align: left;
+  border: 0;
+  padding-left: 100px; }
+  blockquote img {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -37.5px;
+    border-radius: 75px; }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles for mobile */ }
+@media only screen and (min-width: 569x) {
+  header .hero-container {
+    background: linear-gradient(rgba(11, 11, 16, 0.3) 50%, #0b0b10 100%), url("../images/handelsbeurs_1024.jpg");
+    background-position: top left, center center;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover; } }
+@media only screen and (min-width: 1025px) {
+  header .hero-container {
+    background: linear-gradient(rgba(11, 11, 16, 0.3) 50%, #0b0b10 100%), url("../images/handelsbeurs_1680.jpg");
+    background-position: top left, center center;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover; } }
+@media only screen and (min-width: 1681px) {
+  header .hero-container {
+    background: linear-gradient(rgba(11, 11, 16, 0.3) 50%, #0b0b10 100%), url("../images/handelsbeurs_2560.jpg");
+    background-position: top left, center center;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover; } }
+@media only screen and (min-width: 750px) {
+  body {
+    font-size: 1.125em; }
+
+  article p {
+    text-align: left; }
+
+  header {
+    font-size: 1.25em; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+  /* Don't forget your Retina CSS! */ }

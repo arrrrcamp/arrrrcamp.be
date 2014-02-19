@@ -1,0 +1,31 @@
+<header>
+  <div class="hero-container"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+        <h1 class="logo">ArrrrCamp</h1>
+      </div>
+    </div>
+  </div>
+  <div class="hero-content">
+    <h1>Hoist the sails!</h1>
+    <span class="date">October 2nd &amp; 3rd, 2014 in Ghent, Belgium</span>
+  </div>
+</header>
+
+<div class="tagline">
+  <div class="container">
+    <section class="row">
+      <article class="col-xs-12 col-sm-10 col-sm-offset-1">
+        <h3>
+          {% if page.tagline %}
+            {{ page.tagline }}
+          {% else %}
+            ArrrrCamp is a conference for the modern developer interested in Ruby, Rails or the industry in general. Our event will inspire you, help you learn new things, meet new people and hang out with old friends.
+          {% endif %}
+        </h3>
+      </article>
+    </section>
+  </div>
+</div>
+
