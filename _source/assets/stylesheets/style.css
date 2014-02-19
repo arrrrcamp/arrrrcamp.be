@@ -86,16 +86,18 @@ small {
   max-width: 600px;
   margin: 0 auto; }
 
-.logo {
-  color: #fff;
+.logo-link {
+  z-index: 3;
   font-size: 0.875em;
-  display: inline-block;
-  background: url("../images/arrrrcamp_logo.png") center center no-repeat;
-  background-size: cover;
-  text-indent: -99999px;
-  width: 9.375em;
-  height: 4.16em;
+  display: block;
   margin-top: 3.5em; }
+  .logo-link:hover {
+    border: 0; }
+  .logo-link .logo {
+    background: url("../images/arrrrcamp_logo.png") center center no-repeat;
+    background-size: cover;
+    width: 9.375em;
+    height: 4.16em; }
 
 header {
   min-width: 100%;
