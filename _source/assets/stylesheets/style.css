@@ -192,7 +192,8 @@ input[type=submit] {
   margin: 1em 0;
   display: block; }
 
-input[type=text] {
+input[type=text],
+input[type=email] {
   background: #eee;
   border: 1px solid #758559;
   border-radius: 3px;
