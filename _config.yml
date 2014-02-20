@@ -1,12 +1,13 @@
-title: ArrrrCamp 2014 - October 2nd & 3rd, 2014
+title: ArrrrCamp
 author: ArrrrCamp
 subtitle: "A conference for the modern developer"
 description: "A conference for the modern developer"
+tagline: October 2nd & 3rd, 2014
 
 source: ./_source
 destination: public
 exclude: [public, Gemfile, Gemfile.lock, Rakefile, README.md]
 
-permalink: /:date/:title
+permalink: /:year/:month/:day/:title
 markdown: rdiscount
 pygments: true
