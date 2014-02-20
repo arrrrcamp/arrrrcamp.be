@@ -5,6 +5,9 @@ require "json"
 url_pow     = "arrrr2014"
 url_live    = "arrrrcamp.be"
 
+deploy_user = "arrrrcamp2014@pro-009.openminds.be"
+deploy_path = "~/apps/arrrrcamp14/public"
+
 desc "Delete old website files to start fresh."
 task :clean do
   puts "Starting fresh!"
@@ -51,6 +54,12 @@ end
 desc "Build a clean, compressed copy of the site."
 task :build => [:clean, :compile, :compress] do
   puts "Done! See it locally at http://#{url_pow}.dev, or live at http://#{url_live}."
+end
+
+desc "Upload a fresh copy of the site to your server."
+task :deploy => [:build] do
+  puts "Deploying at http://#{url_live}!"
+  system "rsync -avze 'ssh -p 22' --delete public/ #{deploy_user}:#{deploy_path}"
 end
 
 desc "Builds a fresh copy of your site, then opens it."
