@@ -48,6 +48,8 @@ article {
 
 article {
   text-align: center; }
+  article p {
+    text-align: left; }
   article h2 {
     text-transform: uppercase;
     font-size: 1.618em;
