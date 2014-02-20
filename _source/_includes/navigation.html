@@ -1,10 +1,6 @@
-<header class="navigation" id="top" role="banner">
-  <a class="navigation-home" href="/">{{ site.title }}</a>
-
-  <nav class="navigation-links" role="navigation">
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/about">About</a></li>
-    </ul>
-  </nav>
-</header>
+<nav>
+  <ul>
+    <li class="{% if page.class == 'videos' %}active{% endif %}"><a href="/videos">Videos</a></li>
+    <li><a href="/cfp">Blog</a></li>
+  </ul>
+</nav>

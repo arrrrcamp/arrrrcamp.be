@@ -94,14 +94,35 @@ small {
   z-index: 3;
   font-size: 0.875em;
   display: block;
-  margin-top: 3.5em; }
+  margin-top: 1.928306551em; }
   .logo-link:hover {
     border: 0; }
   .logo-link .logo {
     background: url("../images/arrrrcamp_logo.png") center center no-repeat;
     background-size: cover;
-    width: 9.375em;
-    height: 4.16em; }
+    width: 7.03125em;
+    height: 3.12em; }
+
+nav {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  padding-top: 1.928306551em;
+  padding-right: 1.928306551em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 4; }
+  nav ul li {
+    display: inline-block;
+    float: left;
+    padding: 0.3em 0.8em 0.13em; }
+    nav ul li.active {
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 3px; }
+    nav ul li a:link, nav ul li a:visited {
+      color: #fff; }
+    nav ul li a:hover, nav ul li a:active {
+      border-bottom: 1px solid #fff; }
 
 header {
   min-width: 100%;
