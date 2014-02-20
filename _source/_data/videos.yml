@@ -1,0 +1,415 @@
+# encoding: UTF-8
+- name: Stijn Mathysen
+  title: Showcas of a application for De Post
+  url: https://vimeo.com/4832478
+  edition: 2009
+-
+  name: Jeroen Jacobs
+  title: Cucumber
+  url: https://vimeo.com/5004500
+  edition: 2009
+-
+  name: Bert Goethals
+  title: Mistakes I made in Ruby
+  url: https://vimeo.com/6057789
+  edition: 2009
+-
+  name: Ivan Porto Carrero
+  title: IronRuby
+  url: https://vimeo.com/4834818
+  edition: 2009
+-
+  name: Denis Defreyne
+  title: Nanoc
+  url: https://vimeo.com/6055946
+  edition: 2009
+-
+  name: Tom Klaasen
+  title: Prawn
+  url: https://vimeo.com/4833489
+  edition: 2009
+-
+  name: Frank Louwers
+  title: Rails hosting
+  url: https://vimeo.com/6053709
+  edition: 2009
+-
+  name: Tom Maeckelberghe
+  title: Validation (ASP MVC)
+  url: https://vimeo.com/6070896
+  edition: 2009
+-
+  name: Johan Ronsse
+  title: Winston
+  url: https://vimeo.com/6072025
+  edition: 2009
+-
+  name: Benny Degezelle
+  title: Advanced Radiant
+  url: https://vimeo.com/7753793
+  edition: 2009
+-
+  name: Bernard Grymonpon
+  title: Advanced Caching
+  url: https://vimeo.com/7692546
+  edition: 2009
+-
+  name: Koen Van der Auwera
+  title: Timekeeper
+  url: https://vimeo.com/7688900
+  edition: 2009
+-
+  name: Denis Defreyne
+  title: Metaprogramming + DSL
+  url: https://vimeo.com/channels/arrrrcamp/7744414
+  edition: 2009
+-
+  name: Wim Vander Schelden
+  title: Building Ruby extensions with C
+  url: https://vimeo.com/7747286
+  edition: 2009
+-
+  name: Steven Verborgh
+  title: Ruby on Android
+  url: https://vimeo.com/channels/arrrrcamp/6115700
+  edition: 2009
+-
+  name: Joren De Groof
+  title: Making Mojito
+  url: https://vimeo.com/4652568
+  edition: 2009
+-
+  name: Drew Neil
+  title: VIM - Walking without crutches
+  url: https://webcast.streamdis.eu/mediasite/Viewer/?peid=547c80b051c4495db70be549c48fe2c11d
+  edition: 2010
+-
+  name: Joseph Wilk
+  title: Escaping the sludgy swamp of slow tests
+  url: https://webcast.streamdis.eu/mediasite/Viewer/?peid=24015fe5b375429b9ff9e666bf3b39031d
+  edition: 2010
+-
+  name: Elise Huard
+  title: "Concurrency: Rubies, plural"
+  url: https://webcast.streamdis.eu/mediasite/Viewer/?peid=5d6247d7c3544eab9acba8b4a77f53d71d
+  edition: 2010
+-
+  name: Tim Payton and Sebastian Roebke
+  title: Making it an anti-pattern is not enough
+  url: https://webcast.streamdis.eu/mediasite/Viewer/?peid=236570c13fe0450482a7d5a2805cbf791d
+  edition: 2010
+-
+  name: Carl Lerche
+  title: Keynote
+  url: https://webcast.streamdis.eu/mediasite/Viewer/?peid=1a894c07e1c140408c6ced569bcb003e1d
+  edition: 2010
+-
+  name: Yehuda Katz
+  title: Closing keynote
+  url: https://webcast.streamdis.eu/mediasite/Viewer/?peid=d1d548e125d540b6a24e4321b9b8a89f1d
+  edition: 2010
+-
+  name: Various
+  title: Lightning talks
+  url: https://webcast.streamdis.eu/mediasite/Viewer/?peid=e67f24fb46ea421ab601322360bd6c211d
+  edition: 2010
+-
+  name: John Long
+  title: Design Workflows for Rails
+  url: https://vimeo.com/30586999
+  edition: 2011
+-
+  name: Marius Mathiesen
+  title: Sleeping with the enemy
+  url: https://vimeo.com/30910670
+  edition: 2011
+-
+  name: Jonas Nicklas
+  title: Practical testing for assorted languages
+  url: https://vimeo.com/30893889
+  edition: 2011
+-
+  name: Jim Gay
+  title: Radiant 1.0 now and the future
+  url: https://vimeo.com/30586897
+  edition: 2011
+-
+  name: Brian Quinn
+  title: "Spree: the open source e-commerce platform"
+  url: https://vimeo.com/30586732
+  edition: 2011
+-
+  name: Anthony Eden
+  title: Build and Test APIs with Ruby and Cucumber
+  url: https://vimeo.com/30586709
+  edition: 2011
+-
+  name: Corey Haines
+  title: Fast Rails Tests
+  url: https://vimeo.com/30893836
+  edition: 2011
+-
+  name: Julien Biezemans
+  title: The Behaviour-Driven Programmer
+  url: https://vimeo.com/30893856
+  edition: 2011
+-
+  name: Ewout Van Troostenberghe
+  title: "Dancing with Arel: filterkit and reportkit"
+  url: https://vimeo.com/30586891
+  edition: 2011
+-
+  name: Julian Fischer
+  title: Three ways to scale towards happiness
+  url: https://vimeo.com/30893816
+  edition: 2011
+-
+  name: Lennart Koopman
+  title: Managing the logs of your (Rails) applications
+  url: https://vimeo.com/30893875
+  edition: 2011
+-
+  name: Andrew Nesbitt
+  title: A/B Testing everything with Split
+  url: https://vimeo.com/30586648
+  edition: 2011
+-
+  name: Roy Tomeij
+  title: Stop Swashbucklin' and Shipshape yer Front-end
+  url: https://vimeo.com/30587009
+  edition: 2011
+-
+  name: Elise Huard
+  title: Data-driven development
+  url: https://vimeo.com/30586777
+  edition: 2011
+-
+  name: Dave Worth
+  title: Static Analysis and Rails Security
+  url: https://vimeo.com/51635385
+  edition: 2012
+-
+  name: Bartlomiej Niemtur
+  title: Better State Management
+  url: https://vimeo.com/51528463
+  edition: 2012
+-
+  name: Laurent Sansonetti
+  title: "RubyMotion: Ruby in your pocket"
+  url: https://vimeo.com/51898265
+  edition: 2012
+-
+  name: 'Roy Tomeij'
+  title: 'Modular & reusable front-end code with HTML5, Sass and CoffeeScript'
+  url: https://vimeo.com/51529598
+  edition: 2012
+-
+  name: Jakob Hilden
+  title: 'SMURF: Scalable, Modular, reUsable Rails Frontends'
+  url: https://vimeo.com/51903907
+  edition: 2012
+-
+  name: Eric Nordmeyer
+  title: Why the Beatles get more airplay than Mozart
+  url: https://vimeo.com/51528465
+  edition: 2012
+-
+  name: Ryan Stenhouse
+  title: "Cultured localisation, or 'how not to offend 1 billion people'"
+  url: https://vimeo.com/51634570
+  edition: 2012
+-
+  name: Bernard Grymonpon
+  title: Testing Chef Recipes
+  url: https://vimeo.com/51911896
+  edition: 2012
+-
+  name: Yann Armand
+  title: "Dealing with Scale at Yammer: Caching and Services"
+  url: https://vimeo.com/51529599
+  edition: 2012
+-
+  name: Katrina Owen
+  title: Therapeutic Refactoring
+  url: https://vimeo.com/51634446
+  edition: 2012
+-
+  name: Ben Noordhuis
+  title: NodeJS
+  url: https://vimeo.com/51637038
+  edition: 2012
+-
+  name: Konstantin Haase
+  title: We don't know HTTP
+  url: https://vimeo.com/51903877
+  edition: 2012
+-
+  name: Yehuda Katz
+  title: Crying Over Spilt Cruft
+  url: https://vimeo.com/51903878
+  edition: 2012
+-
+  name: Bryan Liles
+  title: Simulating the WORLD with Ruby
+  url: https://vimeo.com/51898786
+  edition: 2012
+-
+  name: Elliott Kember
+  title: The War on Users
+  url: https://vimeo.com/51637878
+  edition: 2012
+-
+  name: Steve Klabnik
+  title: Why should I care about Rails 4?
+  url: https://vimeo.com/51898266
+  edition: 2012
+-
+  name: Jim Weirich
+  title: Y Not? - Adventures in Functional Programming
+  url: https://vimeo.com/51898267
+  edition: 2012
+-
+  name: Adam Rogers
+  title: Bug Requests and Pull Reports
+  url: https://vimeo.com/51528462
+  edition: 2012
+-
+  name: Phil Nash
+  title: JavaScript in the next generation
+  url: https://vimeo.com/51903881
+  edition: 2012
+-
+  name: Piotr Sarnacki
+  title: Using Rails without Rails
+  url: https://vimeo.com/51903882
+  edition: 2012
+-
+  name: Peter Berkenbosch
+  title: Spree from the trenches
+  url: https://vimeo.com/51903880
+  edition: 2012
+-
+  name: Piotr Szotkowski
+  title: 'Persist, Little Objects!'
+  url: https://vimeo.com/51636332
+  edition: 2012
+-
+  name: Julien Biezemans
+  title: "Cucumber.js: Cuke up your JavaScript!"
+  url: https://vimeo.com/51529597
+  edition: 2012
+-
+  name: Aleksander DÄ…browski
+  title: Sinatra autopsy
+  url: https://vimeo.com/51898788
+  edition: 2012
+-
+  name: Ryan Stenhouse
+  title: Ecouter et repeter is SO last century
+  url: https://www.youtube.com/watch?v=zSX-SsWe-0M
+  edition: 2013
+-
+  name: Daan van Berkel
+  title: "Pirate Power Play: How to do computation by playing games"
+  url: https://www.youtube.com/watch?v=Vh2QTntB76M
+  edition: 2013
+-
+  name: Floor Drees
+  title: How to survive family gatherings and birthday parties
+  url: https://www.youtube.com/watch?v=BkSZ9zTnY9Y
+  edition: 2013
+-
+  name: Jano GonzÃ¡lez
+  title: Ruby for your two internal programmers
+  url: https://www.youtube.com/watch?v=Wn0jHbXStUs
+  edition: 2013
+-
+  name: Mark Bates
+  title: A Big Look at MiniTest
+  url: https://www.youtube.com/watch?v=89cog2Hj7lg
+  edition: 2013
+-
+  name: Sylvain AbÃ©lard
+  title: Bearded Gurus
+  url: https://www.youtube.com/watch?v=Vi8Eu5w7oCA
+  edition: 2013
+-
+  name: David Padilla
+  title: Web applications with Ruby (not Rails)
+  url: https://www.youtube.com/watch?v=zoT8Lbt-jk4
+  edition: 2013
+-
+  name: Balint Erdi
+  title: Ember on Rails - Convention over Configuration on both sides of the tubes
+  url: https://www.youtube.com/watch?v=AaoNtVt54FY
+  edition: 2013
+-
+  name: Zachary Scott
+  title: Escaping Reality With Shoes
+  url: https://www.youtube.com/watch?v=kJDKDkoNIb4
+  edition: 2013
+-
+  name: Javier Ramirez
+  title: Fun with Ruby and Redis
+  url: https://www.youtube.com/watch?v=eVnvQULI1Cc
+  edition: 2013
+-
+  name: Luismi Cavalle
+  title: Patterns to deal with big ActiveRecord models
+  url: https://www.youtube.com/watch?v=ori_StLXMSk
+  edition: 2013
+-
+  name: Piotr Szotkowski
+  title: 'Standard Library, Uncommon Uses'
+  url: https://www.youtube.com/watch?v=CITMkGs4BYI
+  edition: 2013
+-
+  name: Phil Nash
+  title: How to create the perfect prototype
+  url: https://www.youtube.com/watch?v=DwP4rV2peyw
+  edition: 2013
+-
+  name: Benoit Daloze
+  title: On Benchmarking With Ruby
+  url: https://www.youtube.com/watch?v=3nIilqb7rfU
+  edition: 2013
+-
+  name: Anthony Eden
+  title: "Rails: Still the Best Framework for Bootstrapping"
+  url: https://www.youtube.com/watch?v=qbwkNFteMb4
+  edition: 2013
+-
+  name: Avdi Grimm
+  title: You gotta try this
+  url: https://www.youtube.com/watch?v=sVd4p6oKeUA
+  edition: 2013
+-
+  name: Ben Orenstein
+  title: Frequently Asked Questions
+  url: https://www.youtube.com/watch?v=PYpxx2BFZPo
+  edition: 2013
+-
+  name: Zach Holman
+  title: More Git and GitHub Secrets
+  url: https://www.youtube.com/watch?v=p50xsL-iVgU
+  edition: 2013
+-
+  name: Mathias Bynens  T
+  title: Ten things I didn't know about HTML
+  url: https://www.youtube.com/watch?v=yz2KA96rr-w
+  edition: 2013
+-
+  name: Bart van Zon
+  title: 'Numbers, because metrics matter'
+  url: https://www.youtube.com/watch?v=TjhOI2oWcWk
+  edition: 2013
+-
+  name: Adam Rogers
+  title: How To Win Designers And Influence Developers
+  url: https://www.youtube.com/watch?v=MY2Fg18zzBI
+  edition: 2013
+-
+  name: A lot of arrrrsome people
+  title: Lightning talks
+  url: https://www.youtube.com/watch?v=lN9DWl51WeI
+  edition: 2013

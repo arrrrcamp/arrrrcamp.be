@@ -1,7 +1,23 @@
 ---
 title: "ArrrrCamp - Videos"
-class: about
-layout: landing
+herotitle: Videos
+tagline: Check out the arrrrsome talks of past years' events.
+class: videos
+layout: default
 ---
 
-Videos go here
+{% for edition in site.data.editions %}
+  <section class="row">
+    <article class="col-xs-12 col-sm-10 col-sm-offset-1">
+      <h2>{{ edition.name }}</h2>
+      {% for video in site.data.videos %}
+        {% if video.edition == edition.name %}
+          <article>
+            <h3>{{ video.name }}</h3>
+            <a href="{{ video.url }}">{{ video.title }}</a>
+          </article>
+        {% endif %}
+      {% endfor %}
+    </article>
+  </section>
+{% endfor %}

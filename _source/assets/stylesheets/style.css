@@ -46,11 +46,11 @@ article {
   .tagline section {
     background: #0b0b10; }
 
-article {
+section {
   text-align: center; }
-  article p {
+  section p {
     text-align: left; }
-  article h2 {
+  section h2 {
     text-transform: uppercase;
     font-size: 1.618em;
     letter-spacing: 0.05em;
@@ -58,7 +58,7 @@ article {
     color: #758559;
     border-bottom: 1px solid #758559;
     display: inline-block; }
-    article h2:not(:first-child) {
+    section h2:not(:first-child) {
       margin-top: 2.5em; }
 
 a:link,
