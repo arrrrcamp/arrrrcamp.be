@@ -8,6 +8,6 @@ source: ./_source
 destination: public
 exclude: [public, Gemfile, Gemfile.lock, Rakefile, README.md]
 
-permalink: /:year/:month/:day/:title
+permalink: /blog/:year/:month/:day/:title
 markdown: rdiscount
 pygments: true
