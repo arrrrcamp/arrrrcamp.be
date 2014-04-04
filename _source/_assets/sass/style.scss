@@ -306,6 +306,34 @@ blockquote {
   }
 }
 
+.speakers {
+  text-align: center;
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  .speaker {
+    width: 150px;
+    display: inline-block;
+    margin: 2em 2em 0 2em;
+    a {
+      display: block;
+      max-width: 100%;
+      &:first-child {
+        margin-bottom: 0.75em;
+        &:hover,
+        &:active {
+          text-decoration: none;
+        }
+      }
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
   /* Styles for mobile */

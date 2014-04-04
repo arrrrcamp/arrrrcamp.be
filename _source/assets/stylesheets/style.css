@@ -222,6 +222,26 @@ blockquote {
     margin-top: -37.5px;
     border-radius: 75px; }
 
+.speakers {
+  text-align: center; }
+  .speakers:after {
+    content: '';
+    display: table;
+    clear: both; }
+  .speakers .speaker {
+    width: 150px;
+    display: inline-block;
+    margin: 2em 2em 0 2em; }
+    .speakers .speaker a {
+      display: block;
+      max-width: 100%; }
+      .speakers .speaker a:first-child {
+        margin-bottom: 0.75em; }
+        .speakers .speaker a:first-child:hover, .speakers .speaker a:first-child:active {
+          text-decoration: none; }
+      .speakers .speaker a img {
+        max-width: 100%; }
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* Styles for mobile */ }
 @media only screen and (min-width: 569x) {

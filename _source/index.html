@@ -20,6 +20,20 @@ layout: default
 
 <section class="row">
   <article class="col-xs-12 col-sm-10 col-sm-offset-1">
+    <h2>Speakers</h2>
+    <div class="speakers">
+      {% for speaker in site.data.speakers %}
+        <div class="speaker">
+          <a href="{{ speaker.twitter }}"><img src="../assets/images/speakers/{{ speaker.avatar }}"></a>
+          <a href="{{ speaker.twitter }}">{{ speaker.name }}</a>
+        </div>
+      {% endfor %}
+    </div>
+  </article>
+</section>
+
+<section class="row">
+  <article class="col-xs-12 col-sm-10 col-sm-offset-1">
     <h2>A fantastic venue</h2>
     <p>
     This year's edition will take place at the <a href="http://www.handelsbeurs.be/en">Handelsbeurs</a>. This amazing concert hall with big lounge area is located smack in the middle of Ghent’s city center within walking distance of the old city parts and with plenty of hotels, restaurants and pubs nearby. Our infamous public transportation will get you anywhere you need to be. Coming by car? We have an underground car park at our doorstep. Literally.
