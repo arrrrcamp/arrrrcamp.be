@@ -306,6 +306,32 @@ blockquote {
   }
 }
 
+.sponsors {
+  text-align: center;
+  padding: 1em 0;
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  .sponsor {
+    display: inline-block;
+    width: 100px;
+    margin: 2em;
+    a {
+      max-width: 100%;
+      &:hover,
+      &:active {
+        text-decoration: none;
+      }
+      img {
+        max-width: 100%;
+        vertical-align: center;
+      }
+    }
+  }
+}
+
 .speakers {
   text-align: center;
   &:after {
