@@ -2,6 +2,6 @@
 - name: DNSimple
   logo: dnsimple.png
   url: https://dnsimple.com
-- name: 10to1
-  logo: 10to1.jpeg
-  url: http://10to1.be
+# - name: 10to1
+#   logo: 10to1.jpeg
+#   url: http://10to1.be
