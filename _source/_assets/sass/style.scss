@@ -242,6 +242,17 @@ header {
   }
 }
 
+.tagline .btn {
+  border: 2px solid $red;
+  color: #fff;
+  background: $red;
+  &:hover {
+    border: 2px solid $red;
+    color: $red;
+    background: none;
+  }
+}
+
 .btn {
   display: inline-block;
   padding: 0.8em 2em;

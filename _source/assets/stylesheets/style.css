@@ -172,6 +172,15 @@ header {
         color: #333;
         background: #fff; }
 
+.tagline .btn {
+  border: 2px solid #b1382e;
+  color: #fff;
+  background: #b1382e; }
+  .tagline .btn:hover {
+    border: 2px solid #b1382e;
+    color: #b1382e;
+    background: none; }
+
 .btn {
   display: inline-block;
   padding: 0.8em 2em;
