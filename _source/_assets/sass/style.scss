@@ -316,13 +316,12 @@ blockquote {
   }
   .sponsor {
     display: inline-block;
-    width: 100px;
     margin: 2em;
     a {
       max-width: 100%;
       &:hover,
       &:active {
-        text-decoration: none;
+        border-bottom: none;
       }
       img {
         max-width: 100%;

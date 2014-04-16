@@ -231,12 +231,11 @@ blockquote {
     clear: both; }
   .sponsors .sponsor {
     display: inline-block;
-    width: 100px;
     margin: 2em; }
     .sponsors .sponsor a {
       max-width: 100%; }
       .sponsors .sponsor a:hover, .sponsors .sponsor a:active {
-        text-decoration: none; }
+        border-bottom: none; }
       .sponsors .sponsor a img {
         max-width: 100%;
         vertical-align: center; }
