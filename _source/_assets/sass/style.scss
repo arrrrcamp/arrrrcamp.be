@@ -306,6 +306,71 @@ blockquote {
   }
 }
 
+.sponsors {
+  text-align: center;
+  padding: 1em 0;
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  .sponsor {
+    display: inline-block;
+    margin: 2em;
+    a {
+      max-width: 100%;
+      &:hover,
+      &:active {
+        border-bottom: none;
+      }
+      img {
+        max-width: 100%;
+        vertical-align: center;
+      }
+    }
+  }
+}
+
+.speakers {
+  text-align: center;
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  .speaker {
+    width: 150px;
+    display: inline-block;
+    margin: 2em 2em 0 2em;
+    a:hover + a,
+    a:active + a {
+      text-decoration: underline;
+    }
+    a {
+      display: block;
+      max-width: 100%;
+      &:first-child {
+        margin-bottom: 0.75em;
+        &:hover,
+        &:active {
+          border-bottom: none;
+        }
+      }
+      &:last-child {
+        &:hover,
+        &:active {
+          border-bottom: none;
+          text-decoration: underline;
+        }
+      }
+
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
   /* Styles for mobile */

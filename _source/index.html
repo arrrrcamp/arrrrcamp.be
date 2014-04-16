@@ -20,6 +20,20 @@ layout: default
 
 <section class="row">
   <article class="col-xs-12 col-sm-10 col-sm-offset-1">
+    <h2>Speakers</h2>
+    <div class="speakers">
+      {% for speaker in site.data.speakers %}
+        <div class="speaker">
+          <a href="{{ speaker.twitter }}"><img src="../assets/images/speakers/{{ speaker.avatar }}"></a>
+          <a href="{{ speaker.twitter }}">{{ speaker.name }}</a>
+        </div>
+      {% endfor %}
+    </div>
+  </article>
+</section>
+
+<section class="row">
+  <article class="col-xs-12 col-sm-10 col-sm-offset-1">
     <h2>A fantastic venue</h2>
     <p>
     This year's edition will take place at the <a href="http://www.handelsbeurs.be/en">Handelsbeurs</a>. This amazing concert hall with big lounge area is located smack in the middle of Ghent’s city center within walking distance of the old city parts and with plenty of hotels, restaurants and pubs nearby. Our infamous public transportation will get you anywhere you need to be. Coming by car? We have an underground car park at our doorstep. Literally.
@@ -63,6 +77,13 @@ layout: default
 <section class="row">
   <article class="col-xs-12 col-sm-10 col-sm-offset-1">
     <h2>Sponsors</h2>
+    <div class="sponsors">
+      {% for sponsor in site.data.sponsors %}
+        <div class="sponsor">
+          <a href="{{ sponsor.url }}"><img src="../assets/images/sponsors/{{ sponsor.logo }}"></a>
+        </div>
+      {% endfor %}
+    </div>
     <h3>Would you like to give us a hand to put together a fantastic event?</h3>
     <p class="center">
       Take a look at our sponsor document to see how you can help.

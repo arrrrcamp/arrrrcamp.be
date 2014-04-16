@@ -222,6 +222,50 @@ blockquote {
     margin-top: -37.5px;
     border-radius: 75px; }
 
+.sponsors {
+  text-align: center;
+  padding: 1em 0; }
+  .sponsors:after {
+    content: '';
+    display: table;
+    clear: both; }
+  .sponsors .sponsor {
+    display: inline-block;
+    margin: 2em; }
+    .sponsors .sponsor a {
+      max-width: 100%; }
+      .sponsors .sponsor a:hover, .sponsors .sponsor a:active {
+        border-bottom: none; }
+      .sponsors .sponsor a img {
+        max-width: 100%;
+        vertical-align: center; }
+
+.speakers {
+  text-align: center; }
+  .speakers:after {
+    content: '';
+    display: table;
+    clear: both; }
+  .speakers .speaker {
+    width: 150px;
+    display: inline-block;
+    margin: 2em 2em 0 2em; }
+    .speakers .speaker a:hover + a,
+    .speakers .speaker a:active + a {
+      text-decoration: underline; }
+    .speakers .speaker a {
+      display: block;
+      max-width: 100%; }
+      .speakers .speaker a:first-child {
+        margin-bottom: 0.75em; }
+        .speakers .speaker a:first-child:hover, .speakers .speaker a:first-child:active {
+          border-bottom: none; }
+      .speakers .speaker a:last-child:hover, .speakers .speaker a:last-child:active {
+        border-bottom: none;
+        text-decoration: underline; }
+      .speakers .speaker a img {
+        max-width: 100%; }
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* Styles for mobile */ }
 @media only screen and (min-width: 569x) {
