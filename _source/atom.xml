@@ -1,0 +1,31 @@
+---
+layout: nil
+---
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>ArrrrCamp 2014</title>
+  <link href="http://2014.arrrrcamp.be/"/>
+  <link type="application/atom+xml" rel="self" href="http://2014.arrrrcamp.be/atom.xml"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>http://2014.arrrrcamp.be/</id>
+  <author>
+    <name>The Captain</name>
+    <email>captain@arrrrcamp.be</email>
+  </author>
+
+  {% for post in site.posts %}
+  <entry>
+    <id>http://2014.arrrrcamp.be/blog/{{ post.id }}</id>
+    <link type="text/html" rel="alternate" href="http://2014.arrrrcamp.be/blog/{{ post.url }}"/>
+    <title>{{ post.title | xml_escape }}</title>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <author>
+      <name>The Captain</name>
+      <uri>http://2014.arrrrcamp.be/</uri>
+    </author>
+    <content type="html">{{ post.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+
+</feed>
