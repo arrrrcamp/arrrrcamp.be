@@ -342,6 +342,10 @@ blockquote {
     width: 150px;
     display: inline-block;
     margin: 2em 2em 0 2em;
+    a:hover + a,
+    a:active + a {
+      text-decoration: underline;
+    }
     a {
       display: block;
       max-width: 100%;
@@ -349,9 +353,17 @@ blockquote {
         margin-bottom: 0.75em;
         &:hover,
         &:active {
-          text-decoration: none;
+          border-bottom: none;
         }
       }
+      &:last-child {
+        &:hover,
+        &:active {
+          border-bottom: none;
+          text-decoration: underline;
+        }
+      }
+
       img {
         max-width: 100%;
       }

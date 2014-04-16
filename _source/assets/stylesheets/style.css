@@ -250,13 +250,19 @@ blockquote {
     width: 150px;
     display: inline-block;
     margin: 2em 2em 0 2em; }
+    .speakers .speaker a:hover + a,
+    .speakers .speaker a:active + a {
+      text-decoration: underline; }
     .speakers .speaker a {
       display: block;
       max-width: 100%; }
       .speakers .speaker a:first-child {
         margin-bottom: 0.75em; }
         .speakers .speaker a:first-child:hover, .speakers .speaker a:first-child:active {
-          text-decoration: none; }
+          border-bottom: none; }
+      .speakers .speaker a:last-child:hover, .speakers .speaker a:last-child:active {
+        border-bottom: none;
+        text-decoration: underline; }
       .speakers .speaker a img {
         max-width: 100%; }
 
