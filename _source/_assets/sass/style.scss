@@ -243,8 +243,37 @@ header {
 }
 
 .tickets {
+  .col-sm-4 {
+    min-height: 10em;
+  }
   h3 {
     text-align: center;
+    &.sold-out {
+      &:after {
+        content: 'Sold out';
+        display: block;
+        position: absolute;
+        color: $red;
+        text-transform: uppercase;
+        border: 6px solid $red;
+        border-radius: 5px;
+        font-size: 1.4em;
+        font-weight: 800;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        background: rgba(255,255,255,0.0);
+        z-index: 99;
+        margin: 0 auto;
+        // width: 100%;
+        width: 7em;
+        left: 50%;
+        margin-left: -3.5em;
+        text-align: center;
+        transform: rotate(-15deg);
+        -webkit-transform: rotate(-15deg);
+        -ms-transform: rotate(-15deg);
+      }
+    }
   }
 }
 
