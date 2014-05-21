@@ -102,11 +102,22 @@ layout: default
 <section class="row">
   <article class="col-xs-12 col-sm-10 col-sm-offset-1">
     <h2>Sponsors</h2>
-    <div class="sponsors">
+    <div class="sponsors silver">
       {% for sponsor in site.data.sponsors %}
-        <div class="sponsor">
-          <a href="{{ sponsor.url }}"><img src="../assets/images/sponsors/{{ sponsor.logo }}"></a>
-        </div>
+        {% if sponsor.type == 'silver' %}
+          <div class="sponsor">
+            <a href="{{ sponsor.url }}"><img src="../assets/images/sponsors/{{ sponsor.logo }}"></a>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+    <div class="sponsors bronze">
+      {% for sponsor in site.data.sponsors %}
+        {% if sponsor.type == 'bronze' %}
+          <div class="sponsor">
+            <a href="{{ sponsor.url }}"><img src="../assets/images/sponsors/{{ sponsor.logo }}"></a>
+          </div>
+        {% endif %}
       {% endfor %}
     </div>
     <h3>Would you like to give us a hand to put together a fantastic event?</h3>
