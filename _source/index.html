@@ -20,8 +20,12 @@ layout: default
     <div class="speakers">
       {% for speaker in site.data.speakers %}
         <div class="speaker">
-          <a href="{{ speaker.twitter }}"><img src="../assets/images/speakers/{{ speaker.avatar }}"></a>
-          <a href="{{ speaker.twitter }}">{{ speaker.name }}</a>
+          {% if speaker.published == true %}
+            <a href="{{ speaker.twitter }}"><img src="../assets/images/speakers/{{ speaker.avatar }}"></a>
+            <a href="{{ speaker.twitter }}">{{ speaker.name }}</a>
+          {% else %}
+            <div class="placeholder"></div>
+          {% endif %}
         </div>
       {% endfor %}
       <p class="center">
