@@ -1,6 +1,6 @@
 ---
 title: Hoist the sails!
-herotagline: October 2nd & 3rd, 2014 in Ghent, Belgium
+herotagline: October 2nd &amp; 3rd, 2014 in Ghent, Belgium
 class: home
 layout: default
 ---
@@ -17,21 +17,20 @@ layout: default
 <section class="row">
   <article class="col-xs-12 col-sm-10 col-sm-offset-1">
     <h2>Speakers</h2>
-    <div class="speakers">
+    <div class="speakers-brief">
       {% for speaker in site.data.speakers %}
-        <div class="speaker">
-          {% if speaker.published == true %}
-            <a href="{{ speaker.twitter }}"><img src="../assets/images/speakers/{{ speaker.avatar }}"></a>
-            <a href="{{ speaker.twitter }}">{{ speaker.name }}</a>
-          {% else %}
-            <div class="placeholder"></div>
-          {% endif %}
-        </div>
+        {% if speaker.published == true %}
+          <div class="speaker">
+            <a href="/speakers/#{{ speaker.slug }}" class="avatar"><img src="../assets/images/speakers/{{ speaker.avatar }}"></a>
+            <h3><a href="/speakers/#{{ speaker.slug }}">{{ speaker.firstname }} {{ speaker.name }}</a></h3>
+            <h4><a href="/speakers/#{{ speaker.slug }}">{{ speaker.title }}</a></h4>
+          </div>
+        {% endif %}
       {% endfor %}
-      <p class="center">
-        These fine folks are only the first of our crewmembers. Keep an eye on the site or <a href="https://twitter.com/arrrrcamp">Twitter</a> for announcements!
-      </p>
     </div>
+    <p class="center">
+      These fine folks are only the first of our crewmembers. Keep an eye on the site or <a href="https://twitter.com/arrrrcamp">Twitter</a> for announcements!
+    </p>
   </article>
 </section>
 
@@ -73,23 +72,21 @@ layout: default
 <section class="row">
   <article class="col-xs-12 col-sm-10 col-sm-offset-1">
     <h2>What attendees say</h2>
-    <p>
-      <blockquote>
-        I have a boatload of fond memories &mdash; beautiful city, delicious mojitos, great talks, lovely parties, and service above-and-beyond, well, everything!
-        &mdash; <span class="author"><a href="http://twitter.com/kytrinyx">Katrina Owen</a></span>
-        <img alt="Katrina Owen" src="../assets/images/kytrinyx.png" width="75" height="75">
-      </blockquote>
-      <blockquote>
-        The organizers of ArrrrCamp put so much thought and heart into the event that it's always amazing. I've been twice now and have met intelligent people, laughed hard, and enjoyed some fantastic food and beer.
-        <span class="author">&mdash; <a href="http://twitter.com/aeden">Anthony Eden</a></span>
-        <img alt="Anthony Eden" src="../assets/images/aeden.jpg" width="75" height="75">
-      </blockquote>
-      <blockquote>
-        ArrrrCamp to me is a fun bunch of speakers on a variety of topics, a team of organizers with their hearts in all the right places, authentic Belgian-ness (it's a word!) and a lot of pirate references. Last years event even got me hooked on math riddles!
-        <span class="author">&mdash; <a href="http://twitter.com/floordrees">Floor Drees</a></span>
-        <img alt="Floor Drees" src="../assets/images/floordrees.jpeg" width="75" height="75">
-      </blockquote>
-    </p>
+    <blockquote>
+      I have a boatload of fond memories &mdash; beautiful city, delicious mojitos, great talks, lovely parties, and service above-and-beyond, well, everything!
+      &mdash; <span class="author"><a href="http://twitter.com/kytrinyx">Katrina Owen</a></span>
+      <img alt="Katrina Owen" src="../assets/images/kytrinyx.png" width="75" height="75">
+    </blockquote>
+    <blockquote>
+      The organizers of ArrrrCamp put so much thought and heart into the event that it's always amazing. I've been twice now and have met intelligent people, laughed hard, and enjoyed some fantastic food and beer.
+      <span class="author">&mdash; <a href="http://twitter.com/aeden">Anthony Eden</a></span>
+      <img alt="Anthony Eden" src="../assets/images/aeden.jpg" width="75" height="75">
+    </blockquote>
+    <blockquote>
+      ArrrrCamp to me is a fun bunch of speakers on a variety of topics, a team of organizers with their hearts in all the right places, authentic Belgian-ness (it's a word!) and a lot of pirate references. Last years event even got me hooked on math riddles!
+      <span class="author">&mdash; <a href="http://twitter.com/floordrees">Floor Drees</a></span>
+      <img alt="Floor Drees" src="../assets/images/floordrees.jpeg" width="75" height="75">
+    </blockquote>
   </article>
 </section>
 

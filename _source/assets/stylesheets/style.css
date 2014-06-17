@@ -57,7 +57,8 @@ section {
     line-height: 1.5;
     color: #758559;
     border-bottom: 1px solid #758559;
-    display: inline-block; }
+    display: inline-block;
+    margin-bottom: 2em; }
     section h2:not(:first-child) {
       margin-top: 2.5em; }
 
@@ -276,36 +277,40 @@ blockquote {
         max-width: 100%;
         vertical-align: center; }
 
-.speakers {
+.speakers-brief {
   text-align: center; }
-  .speakers:after {
-    content: '';
+  .speakers-brief:after {
     display: table;
+    content: ' ';
     clear: both; }
-  .speakers .speaker {
-    width: 150px;
+  .speakers-brief .speaker {
+    width: 14em;
+    height: 21em;
     display: inline-block;
-    margin: 2em 2em 0 2em; }
-    .speakers .speaker a:hover + a,
-    .speakers .speaker a:active + a {
-      text-decoration: underline; }
-    .speakers .speaker .placeholder {
-      background: rgba(0, 0, 0, 0.5);
+    vertical-align: top; }
+    .speakers-brief .speaker h4 a {
+      color: #0b0b10; }
+      .speakers-brief .speaker h4 a:hover, .speakers-brief .speaker h4 a:active {
+        border-bottom: 1px solid #0b0b10; }
+    .speakers-brief .speaker .avatar {
       width: 150px;
-      height: 150px;
-      margin-bottom: 1.75em; }
-    .speakers .speaker a {
-      display: block;
-      max-width: 100%; }
-      .speakers .speaker a:first-child {
-        margin-bottom: 0.75em; }
-        .speakers .speaker a:first-child:hover, .speakers .speaker a:first-child:active {
-          border-bottom: none; }
-      .speakers .speaker a:last-child:hover, .speakers .speaker a:last-child:active {
-        border-bottom: none;
-        text-decoration: underline; }
-      .speakers .speaker a img {
+      display: inline-block; }
+      .speakers-brief .speaker .avatar:hover, .speakers-brief .speaker .avatar:active {
+        border: 0; }
+      .speakers-brief .speaker .avatar img {
         max-width: 100%; }
+
+body.speakers h2 {
+  margin-bottom: 1em; }
+body.speakers h3 {
+  margin-top: 0; }
+body.speakers .speaker {
+  text-align: left; }
+  body.speakers .speaker img {
+    float: left;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    width: 150px; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* Styles for mobile */ }

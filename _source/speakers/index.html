@@ -1,0 +1,24 @@
+---
+title: Speakers
+tagline: These fine folks are only the first of our crewmembers. Keep an eye on the site or <a href="https://twitter.com/arrrrcamp">Twitter</a> for announcements!
+class: speakers
+layout: default
+---
+
+{% for speaker in site.data.speakers %}
+  <section class="speaker row" id="{{ speaker.slug }}">
+    <article class="col-xs-12 col-sm-10 col-sm-offset-1">
+      <h2>{{ speaker.firstname }} {{ speaker.name }}</h2>
+      <h3>{{ speaker.title }}</h3>
+      {{ speaker.description }}
+    </article>
+    <article class="col-xs-12 col-sm-10 col-sm-offset-1">
+      <img src="../assets/images/speakers/{{ speaker.avatar }}">
+      <h3>About {{ speaker.firstname }}</h3>
+      {{ speaker.bio }}
+      {% if speaker.twitter %}
+        <a href="{{ speaker.twitter }}">Follow {{ speaker.firstname }} on Twitter</a>
+      {% endif %}
+    </article>
+  </section>
+{% endfor %}
