@@ -36,6 +36,35 @@ layout: default
 
 <section class="row">
   <article class="col-xs-12 col-sm-10 col-sm-offset-1">
+    <h2>Sponsors</h2>
+    <div class="sponsors silver">
+      {% for sponsor in site.data.sponsors %}
+        {% if sponsor.type == 'silver' %}
+          <div class="sponsor">
+            <a href="{{ sponsor.url }}"><img src="../assets/images/sponsors/{{ sponsor.logo }}"></a>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+    <div class="sponsors bronze">
+      {% for sponsor in site.data.sponsors %}
+        {% if sponsor.type == 'bronze' %}
+          <div class="sponsor">
+            <a href="{{ sponsor.url }}"><img src="../assets/images/sponsors/{{ sponsor.logo }}"></a>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+    <h3>Would you like to give us a hand to put together a fantastic event?</h3>
+    <p class="center">
+      Take a look at our sponsor document to see how you can help.
+    </p>
+    <div class="center"><a href="/arrrrcamp_2014_treasure_filling_options.pdf" target="_blank" class="btn cta">Sponsor document</a></div>
+  </article>
+</section>
+
+<section class="row">
+  <article class="col-xs-12 col-sm-10 col-sm-offset-1">
     <h2>A fantastic venue</h2>
     <p>
     This year's edition will take place at the <a href="http://www.handelsbeurs.be/en">Handelsbeurs</a>. This amazing concert hall with big lounge area is located smack in the middle of Ghent’s city center within walking distance of the old city parts and with plenty of hotels, restaurants and pubs nearby. Our infamous public transportation will get you anywhere you need to be. Coming by car? We have an underground car park at our doorstep. Literally.
@@ -97,35 +126,6 @@ layout: default
       We dedicate ourselves to making everyone feel welcome and at home, both during the conference and at the fringe events. Our Code of Conduct offers some guidelines to ensure this for both attendees and speakers. The crew is available to anyone who is anything less than completely comfortable at our events.
     </p>
     <div class="center"><a href="/coc" class="btn cta">Code of Conduct</a></div>
-  </article>
-</section>
-
-<section class="row">
-  <article class="col-xs-12 col-sm-10 col-sm-offset-1">
-    <h2>Sponsors</h2>
-    <div class="sponsors silver">
-      {% for sponsor in site.data.sponsors %}
-        {% if sponsor.type == 'silver' %}
-          <div class="sponsor">
-            <a href="{{ sponsor.url }}"><img src="../assets/images/sponsors/{{ sponsor.logo }}"></a>
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-    <div class="sponsors bronze">
-      {% for sponsor in site.data.sponsors %}
-        {% if sponsor.type == 'bronze' %}
-          <div class="sponsor">
-            <a href="{{ sponsor.url }}"><img src="../assets/images/sponsors/{{ sponsor.logo }}"></a>
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-    <h3>Would you like to give us a hand to put together a fantastic event?</h3>
-    <p class="center">
-      Take a look at our sponsor document to see how you can help.
-    </p>
-    <div class="center"><a href="/arrrrcamp_2014_treasure_filling_options.pdf" target="_blank" class="btn cta">Sponsor document</a></div>
   </article>
 </section>
 
