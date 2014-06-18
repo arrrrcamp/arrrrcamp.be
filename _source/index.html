@@ -1,6 +1,6 @@
 ---
 title: Hoist the sails!
-herotagline: October 2nd & 3rd, 2014 in Ghent, Belgium
+herotagline: October 2nd &amp; 3rd, 2014 in Ghent, Belgium
 class: home
 layout: default
 ---
@@ -17,17 +17,49 @@ layout: default
 <section class="row">
   <article class="col-xs-12 col-sm-10 col-sm-offset-1">
     <h2>Speakers</h2>
-    <div class="speakers">
+    <div class="speakers-brief">
       {% for speaker in site.data.speakers %}
-        <div class="speaker">
-          <a href="{{ speaker.twitter }}"><img src="../assets/images/speakers/{{ speaker.avatar }}"></a>
-          <a href="{{ speaker.twitter }}">{{ speaker.name }}</a>
-        </div>
+        {% if speaker.published == true %}
+          <div class="speaker">
+            <a href="/speakers/#{{ speaker.slug }}" class="avatar"><img src="../assets/images/speakers/{{ speaker.avatar }}"></a>
+            <h3><a href="/speakers/#{{ speaker.slug }}">{{ speaker.firstname }} {{ speaker.name }}</a></h3>
+            <h4><a href="/speakers/#{{ speaker.slug }}">{{ speaker.title }}</a></h4>
+          </div>
+        {% endif %}
       {% endfor %}
-      <p class="center">
-        These fine folks are only the first of our crewmembers. Keep an eye on the site or <a href="https://twitter.com/arrrrcamp">Twitter</a> for announcements!
-      </p>
     </div>
+    <p class="center">
+      These fine folks are only the first of our crewmembers. Keep an eye on the site or <a href="https://twitter.com/arrrrcamp">Twitter</a> for announcements!
+    </p>
+  </article>
+</section>
+
+<section class="row">
+  <article class="col-xs-12 col-sm-10 col-sm-offset-1">
+    <h2>Sponsors</h2>
+    <div class="sponsors silver">
+      {% for sponsor in site.data.sponsors %}
+        {% if sponsor.type == 'silver' %}
+          <div class="sponsor">
+            <a href="{{ sponsor.url }}"><img src="../assets/images/sponsors/{{ sponsor.logo }}"></a>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+    <div class="sponsors bronze">
+      {% for sponsor in site.data.sponsors %}
+        {% if sponsor.type == 'bronze' %}
+          <div class="sponsor">
+            <a href="{{ sponsor.url }}"><img src="../assets/images/sponsors/{{ sponsor.logo }}"></a>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+    <h3>Would you like to give us a hand to put together a fantastic event?</h3>
+    <p class="center">
+      Take a look at our sponsor document to see how you can help.
+    </p>
+    <div class="center"><a href="/arrrrcamp_2014_treasure_filling_options.pdf" target="_blank" class="btn cta">Sponsor document</a></div>
   </article>
 </section>
 
@@ -69,23 +101,21 @@ layout: default
 <section class="row">
   <article class="col-xs-12 col-sm-10 col-sm-offset-1">
     <h2>What attendees say</h2>
-    <p>
-      <blockquote>
-        I have a boatload of fond memories &mdash; beautiful city, delicious mojitos, great talks, lovely parties, and service above-and-beyond, well, everything!
-        &mdash; <span class="author"><a href="http://twitter.com/kytrinyx">Katrina Owen</a></span>
-        <img alt="Katrina Owen" src="../assets/images/kytrinyx.png" width="75" height="75">
-      </blockquote>
-      <blockquote>
-        The organizers of ArrrrCamp put so much thought and heart into the event that it's always amazing. I've been twice now and have met intelligent people, laughed hard, and enjoyed some fantastic food and beer.
-        <span class="author">&mdash; <a href="http://twitter.com/aeden">Anthony Eden</a></span>
-        <img alt="Anthony Eden" src="../assets/images/aeden.jpg" width="75" height="75">
-      </blockquote>
-      <blockquote>
-        ArrrrCamp to me is a fun bunch of speakers on a variety of topics, a team of organizers with their hearts in all the right places, authentic Belgian-ness (it's a word!) and a lot of pirate references. Last years event even got me hooked on math riddles!
-        <span class="author">&mdash; <a href="http://twitter.com/floordrees">Floor Drees</a></span>
-        <img alt="Floor Drees" src="../assets/images/floordrees.jpeg" width="75" height="75">
-      </blockquote>
-    </p>
+    <blockquote>
+      I have a boatload of fond memories &mdash; beautiful city, delicious mojitos, great talks, lovely parties, and service above-and-beyond, well, everything!
+      &mdash; <span class="author"><a href="http://twitter.com/kytrinyx">Katrina Owen</a></span>
+      <img alt="Katrina Owen" src="../assets/images/kytrinyx.png" width="75" height="75">
+    </blockquote>
+    <blockquote>
+      The organizers of ArrrrCamp put so much thought and heart into the event that it's always amazing. I've been twice now and have met intelligent people, laughed hard, and enjoyed some fantastic food and beer.
+      <span class="author">&mdash; <a href="http://twitter.com/aeden">Anthony Eden</a></span>
+      <img alt="Anthony Eden" src="../assets/images/aeden.jpg" width="75" height="75">
+    </blockquote>
+    <blockquote>
+      ArrrrCamp to me is a fun bunch of speakers on a variety of topics, a team of organizers with their hearts in all the right places, authentic Belgian-ness (it's a word!) and a lot of pirate references. Last years event even got me hooked on math riddles!
+      <span class="author">&mdash; <a href="http://twitter.com/floordrees">Floor Drees</a></span>
+      <img alt="Floor Drees" src="../assets/images/floordrees.jpeg" width="75" height="75">
+    </blockquote>
   </article>
 </section>
 
@@ -96,35 +126,6 @@ layout: default
       We dedicate ourselves to making everyone feel welcome and at home, both during the conference and at the fringe events. Our Code of Conduct offers some guidelines to ensure this for both attendees and speakers. The crew is available to anyone who is anything less than completely comfortable at our events.
     </p>
     <div class="center"><a href="/coc" class="btn cta">Code of Conduct</a></div>
-  </article>
-</section>
-
-<section class="row">
-  <article class="col-xs-12 col-sm-10 col-sm-offset-1">
-    <h2>Sponsors</h2>
-    <div class="sponsors silver">
-      {% for sponsor in site.data.sponsors %}
-        {% if sponsor.type == 'silver' %}
-          <div class="sponsor">
-            <a href="{{ sponsor.url }}"><img src="../assets/images/sponsors/{{ sponsor.logo }}"></a>
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-    <div class="sponsors bronze">
-      {% for sponsor in site.data.sponsors %}
-        {% if sponsor.type == 'bronze' %}
-          <div class="sponsor">
-            <a href="{{ sponsor.url }}"><img src="../assets/images/sponsors/{{ sponsor.logo }}"></a>
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-    <h3>Would you like to give us a hand to put together a fantastic event?</h3>
-    <p class="center">
-      Take a look at our sponsor document to see how you can help.
-    </p>
-    <div class="center"><a href="/arrrrcamp_2014_treasure_filling_options.pdf" target="_blank" class="btn cta">Sponsor document</a></div>
   </article>
 </section>
 

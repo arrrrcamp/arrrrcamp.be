@@ -89,6 +89,7 @@ section {
     color: $green;
     border-bottom: 1px solid $green;
     display: inline-block;
+    margin-bottom: 2em;
     &:not(:first-child) {
       margin-top: 2.5em;
     }
@@ -377,42 +378,57 @@ blockquote {
   }
 }
 
-.speakers {
+.speakers-brief {
   text-align: center;
   &:after {
-    content: '';
     display: table;
+    content: ' ';
     clear: both;
   }
-  .speaker {
-    width: 150px;
-    display: inline-block;
-    margin: 2em 2em 0 2em;
-    a:hover + a,
-    a:active + a {
-      text-decoration: underline;
-    }
-    a {
-      display: block;
-      max-width: 100%;
-      &:first-child {
-        margin-bottom: 0.75em;
-        &:hover,
-        &:active {
-          border-bottom: none;
-        }
-      }
-      &:last-child {
-        &:hover,
-        &:active {
-          border-bottom: none;
-          text-decoration: underline;
-        }
-      }
 
+  .speaker {
+    width: 14em;
+    height: 21em;
+    display: inline-block;
+    vertical-align: top;
+    h3 {
+
+    }
+    h4 a {
+      color: $dark;
+      &:hover,
+      &:active {
+        border-bottom: 1px solid $dark;
+      }
+    }
+    .avatar {
+      &:hover,
+      &:active {
+        border: 0;
+      }
+      width: 150px;
+      display: inline-block;
       img {
         max-width: 100%;
       }
+    }
+  }
+}
+
+body.speakers {
+  h2 {
+    margin-bottom: 1em;
+  }
+  h3 {
+    margin-top: 0;
+  }
+  .speaker {
+    text-align: left;
+    img {
+      float: left;
+      padding-right: 1em;
+      padding-bottom: 1em;
+      width: 150px;
     }
   }
 }

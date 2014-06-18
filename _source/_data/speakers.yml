@@ -1,10 +1,42 @@
 # encoding: UTF-8
-- name: Aaron Patterson
+- name: Patterson
+  firstname: Aaron
   avatar: aaronpatterson.png
   twitter: https://twitter.com/tenderlove
-- name: Michael Ries
+  published: true
+  bio: Aaron was born and raised on the mean streets of Salt Lake City. His only hope for survival was to join the local gang of undercover street ballet performers known as the Tender Tights. As a Tender Tights member, Aaron learned to perfect the technique of self-defense pirouettes so that nobody, not even the Parkour Posse could catch him. Between vicious street dance-offs, Aaron taught himself to program. He learned to combine the art of street ballet with the craft of software engineering. Using these unique skills, he was able to leave his life on the streets and become a professional software engineer. He is currently Pirouetting through Processes, and Couruing through code for AT&T. Sometimes he thinks back fondly on his life in the Tender Tights, but then he remembers that it is better to have Tender Loved and Lost than to never have Tender Taught at all.
+  title: To be announced...
+  slug: aaron-patterson
+- name: Witek
+  firstname: Grzegorz
+  avatar: grzegorzwitek.png
+  twitter: https://twitter.com/arnvald
+  published: true
+  title: Patterns, patterns everywhere
+  bio: Grzegorz is a web developer constantly looking for new challenges. This month he is based in the Philippines, next month in Taiwan, and in October he's coming to Belgium.
+  slug: grzegorz-witek
+  description: |
+    <p>They're everywhere. They're on the leaf that falls from the tree straight on your head. They're on the building you pass everyday morning. They're on the socks you wear today and in the code you write. Sometimes you don't even notice them. Patterns.</p>
+    <p>Design patterns are defined as general reused solutions to recurring design problems. The term coming from architecture, 20 years ago appeared in software development and since then has been one of the most controversial topics among programmers. Are software design patterns really general and can be reused in various programs? Or are they just solutions with limited scope and don't deserve all the buzz they get?</p>
+    <p>Let's have a short trip through the software design patterns we use, the one we don't need anymore and the ones we wish had never been used - all with a pinch of object orientation and a dram of dynamism.</p>
+- name: Ries
+  firstname: Michael
   avatar: michaelries.jpg
   twitter: https://twitter.com/hqmq_
-- name: T.J. Schuck
+  published: true
+  title: How I Accidentally Wrote the Best Code of my Career
+  bio: Michael found his love for programming by trying to make robots. He found his love for ruby by stumbling into the community. He organizes a local user group and can't get enough.
+  slug: michael-ries
+  description: |
+    <p>I spent a long time studying patterns and trying different tools because I believed that those things would make my code better. My experience of trying to build a registration system taught me that picking the right abstractions is much harder than picking the right tools. It also taught me that when you get the abstractions right it has a profound impact on the readability, maintainability and flexibility of a codebase.</p>
+    <p>This talk will have an overarching structure of telling the story of how the system was created (the things that we got right and wrong) and it will have several subsections that discuss particular characteristics we want in our code and a particular practice we can use to help us make better design decisions. Every attendee should walk out of this talk with at least one new idea about how to tackle their next design decision.</p>
+- name: Schuck
+  firstname: T.J.
   avatar: tjschuck.jpg
   twitter: https://twitter.com/tjschuck
+  published: true
+  title: "80,000 Plaintext Passwords: An Open Source Love Story in Three Acts"
+  bio: "T.J. is a developer at Harvest, makers of the world's best time tracking software, where he writes a combination of Ruby and angry rants. He's also a maintainer of bcrypt-ruby, the best way to keep your users' passwords secure, and of rake-compiler-dev-box, the best way to successfully cross-compile your native gems without pulling your hair out."
+  slug: tj-schuck
+  description: |
+    Fluffmuffin, peppercorn, gilligan — those are just a few of our users' plaintext passwords. I have 80,000 more, and it only took me 87 seconds to gather them from our customer database in a white-hat attack. In Act I of this talk, we'll cover the history of secure password storage, examine the hack, and mitigate the threat. Act II will address the difficulties of working on libraries with complicated external dependencies (like bcrypt-ruby, of which I'm now a maintainer). In Act III, we'll celebrate the power of global collaboration via OSS.
