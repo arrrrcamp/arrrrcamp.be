@@ -40,3 +40,15 @@
   slug: tj-schuck
   description: |
     Fluffmuffin, peppercorn, gilligan — those are just a few of our users' plaintext passwords. I have 80,000 more, and it only took me 87 seconds to gather them from our customer database in a white-hat attack. In Act I of this talk, we'll cover the history of secure password storage, examine the hack, and mitigate the threat. Act II will address the difficulties of working on libraries with complicated external dependencies (like bcrypt-ruby, of which I'm now a maintainer). In Act III, we'll celebrate the power of global collaboration via OSS.
+- name: Ball
+  firstname: Thorsten
+  avatar: thorsten-ball.jpg
+  twitter: https://twitter.com/thorstenball
+  published: true
+  title: Unicorn Unix Magic Tricks
+  bio: Thorsten started programming in Python when he was 14. He lost his interest in computers after a few years and started playing in a band instead. He's been back into development for about 3 years now and currently works as a Rails developer for flinc.org. He's been part of the core team of nodecopter.com and organized NodeCopter events around the world.
+  slug: thorsten-ball
+  description: |
+    <p>A couple of years ago, when I set out to really understand Unix from a developer's perspective, I found one invaluable resource for my Unix studies: the source code of the Unicorn web server. When I first encountered Unicorn, it seemed like magic to me: just by sending different signals to the server I could control important runtime settings. Unicorn allows me to scale the number of worker processes simply by sending a signal. Reloading configuration files and reopening log files is possible by sending signals. It even allows me to hot reload code once deployed. Again, all I need to do is send it a signal. But how does it do all that? Magic? This talk answers exactly this question.</p>
+    <p>We'll take a look at small snippets of the Unicorn source code and see that it isn't magic, but plain old Unix: forking, signal handling, pipes (even self-pipes), pre-spawning, master-worker architecture, file descriptor handling, system calls, the classic socket/bind/listen/accept sequence, Unix sockets, PID files and a lot more. There is even `eval`, but I'll keep quiet about that, I promise.</p>
+    <p>Unicorn is full of Unix. By studying its code we do not only learn how one of the most important pieces of Ruby infrastructure works, but also how Unix systems work. The talk will provide you with a foundation for programming in the Unix environment and show you how to leverage the powers of Unix.</p>
