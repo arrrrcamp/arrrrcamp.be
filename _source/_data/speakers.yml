@@ -28,8 +28,8 @@
   bio: Michael found his love for programming by trying to make robots. He found his love for ruby by stumbling into the community. He organizes a local user group and can't get enough.
   slug: michael-ries
   description: |
-    <p>I spent a long time studying patterns and trying different tools because I believed that those things would make my code better. My experience of trying to build a registration system taught me that picking the right abstractions is much harder than picking the right tools. It also taught me that when you get the abstractions right it has a profound impact on the readability, maintainability and flexibility of a codebase.</p>
-    <p>This talk will have an overarching structure of telling the story of how the system was created (the things that we got right and wrong) and it will have several subsections that discuss particular characteristics we want in our code and a particular practice we can use to help us make better design decisions. Every attendee should walk out of this talk with at least one new idea about how to tackle their next design decision.</p>
+    <p>Picking the right abstractions can be very hard. Understanding object design helps us evaluate tradeoffs, but where do you get the raw ideas to evaluate?</p>
+    <p>A group of developers attempted to rewrite a registration system for the 3rd time, and it turned out amazingly well because of some creative thinking. We'll focus on several concrete practices that can help to spark the creative process and give you new ideas the next time you have to do some design.</p>
 - name: Schuck
   firstname: T.J.
   avatar: tjschuck.jpg
