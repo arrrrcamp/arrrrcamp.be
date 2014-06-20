@@ -288,10 +288,13 @@ blockquote {
     height: 21em;
     display: inline-block;
     vertical-align: top; }
-    .speakers-brief .speaker h4 a {
-      color: #0b0b10; }
-      .speakers-brief .speaker h4 a:hover, .speakers-brief .speaker h4 a:active {
-        border-bottom: 1px solid #0b0b10; }
+    .speakers-brief .speaker h4 {
+      max-width: 90%;
+      margin: 0 auto; }
+      .speakers-brief .speaker h4 a {
+        color: #0b0b10; }
+        .speakers-brief .speaker h4 a:hover, .speakers-brief .speaker h4 a:active {
+          border-bottom: 1px solid #0b0b10; }
     .speakers-brief .speaker .avatar {
       width: 150px;
       display: inline-block; }

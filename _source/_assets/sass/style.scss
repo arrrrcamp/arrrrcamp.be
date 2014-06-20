@@ -394,11 +394,15 @@ blockquote {
     h3 {
 
     }
-    h4 a {
-      color: $dark;
-      &:hover,
-      &:active {
-        border-bottom: 1px solid $dark;
+    h4 {
+      max-width: 90%;
+      margin: 0 auto;
+      a {
+        color: $dark;
+        &:hover,
+        &:active {
+          border-bottom: 1px solid $dark;
+        }
       }
     }
     .avatar {
