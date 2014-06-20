@@ -19,3 +19,7 @@
   logo: semaphore.png
   url: https://semaphoreapp.com
   type: bronze
+- name: Translation.io
+  logo: translation_io.png
+  url: http://translation.io
+  type: gold
