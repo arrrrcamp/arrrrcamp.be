@@ -19,6 +19,17 @@
     <p>They're everywhere. They're on the leaf that falls from the tree straight on your head. They're on the building you pass everyday morning. They're on the socks you wear today and in the code you write. Patterns.</p>
     <p>Design patterns are defined as general, reused solutions to recurring design problems. The term, coming from architecture, appeared in software development 20 years ago and since then has been one of the most controversial topics among programmers. Are software design patterns really general and can be reused in various programs? Or are they just solutions with limited scope and don't deserve all the buzz they get? </p>
     <p>Let's have a short trip through the software design patterns we use, the one we don't need anymore and the ones we wish had never been used - all with a pinch of object orientation and a dram of dynamism.</p>
+- name: Reinhard
+  firstname: Lena
+  avatar: lena-reinhard.jpg
+  twitter: https://twitter.com/ffffux
+  published: true
+  title: "This is bigger than us: Building a future for Open Source"
+  bio: Lena is a writer, editor and photographer specializing in communications, community building and project management in tech. She's a core team member of Hoodie, working on CouchDB. Other than that she's a founder and CEO, musician, surfer and traveller and feels very much alive.
+  slug: lena-reinhard
+  description: |
+    <p>This talk will take you on a journey – from the days of the Easter Islands in the southeastern Pacific Ocean around 700CE, over the mid-15th century in England to Mars, rain forests and coral reefs of our days. On our way, we'll think about the relevance of Open Source Software technology-wise, see why the software we build is a hybrid and which impact this hybridism has on what we build and how. We'll think about Open Source Software's core values, and find out in which terms aiming for diversity (regarding gender, skills, ethnicities and ideas / backgrounds), user-centered approaches, democracy, decentralization and language will be core values when we're building the future of Open Source.</p>
+    <p>This talk aims to encourage everyone of us to broaden our horizons when it comes to how far we can go collectively with all our Open Source projects when we're thinking about the future, - and it will show how widening our communities, aiming for diversity, sustainability and attracting new contributours to our projects will enable us to make this future a bright and great one together.</p>
 - name: Ries
   firstname: Michael
   avatar: michaelries.jpg
@@ -40,14 +51,3 @@
   slug: tj-schuck
   description: |
     Fluffmuffin, peppercorn, gilligan — those are just a few of our users' plaintext passwords. I have 80,000 more, and it only took me 87 seconds to gather them from our customer database in a white-hat attack. In Act I of this talk, we'll cover the history of secure password storage, examine the hack, and mitigate the threat. Act II will address the difficulties of working on libraries with complicated external dependencies (like bcrypt-ruby, of which I'm now a maintainer). In Act III, we'll celebrate the power of global collaboration via OSS.
-- name: Reinhard
-  firstname: Lena
-  avatar: lena-reinhard.jpg
-  twitter: https://twitter.com/ffffux
-  published: true
-  title: "This is bigger than us: Building a future for Open Source"
-  bio: Lena is a writer, editor and photographer specializing in communications, community building and project management in tech. She's a core team member of Hoodie, working on CouchDB. Other than that she's a founder and CEO, musician, surfer and traveller and feels very much alive.
-  slug: lena-reinhard
-  description: |
-    <p>This talk will take you on a journey – from the days of the Easter Islands in the southeastern Pacific Ocean around 700CE, over the mid-15th century in England to Mars, rain forests and coral reefs of our days. On our way, we'll think about the relevance of Open Source Software technology-wise, see why the software we build is a hybrid and which impact this hybridism has on what we build and how. We'll think about Open Source Software's core values, and find out in which terms aiming for diversity (regarding gender, skills, ethnicities and ideas / backgrounds), user-centered approaches, democracy, decentralization and language will be core values when we're building the future of Open Source.</p>
-    <p>This talk aims to encourage everyone of us to broaden our horizons when it comes to how far we can go collectively with all our Open Source projects when we're thinking about the future, - and it will show how widening our communities, aiming for diversity, sustainability and attracting new contributours to our projects will enable us to make this future a bright and great one together.</p>
