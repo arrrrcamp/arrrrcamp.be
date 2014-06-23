@@ -17,7 +17,13 @@ layout: default
       <h3>About {{ speaker.firstname }}</h3>
       {{ speaker.bio }}
       {% if speaker.twitter %}
-        <a href="{{ speaker.twitter }}">Follow {{ speaker.firstname }} on Twitter</a>
+        {% if speaker.github %}
+          <a href="{{ speaker.twitter }}">Follow {{ speaker.firstname }} on Twitter</a> or <a href="{{ speaker.github }}">check out their GitHub profile</a>.
+        {% else %}
+          <a href="{{ speaker.twitter }}">Follow {{ speaker.firstname }} on Twitter</a>.
+        {% endif %}
+      {% elsif speaker.github %}
+        <a href="{{ speaker.github }}">Find {{ speaker.firstname }} on GitHub</a>.
       {% endif %}
     </article>
   </section>
