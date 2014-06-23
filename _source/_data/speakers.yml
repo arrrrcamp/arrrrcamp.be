@@ -30,6 +30,16 @@
     <p>They're everywhere. They're on the leaf that falls from the tree straight on your head. They're on the building you pass everyday morning. They're on the socks you wear today and in the code you write. Patterns.</p>
     <p>Design patterns are defined as general, reused solutions to recurring design problems. The term, coming from architecture, appeared in software development 20 years ago and since then has been one of the most controversial topics among programmers. Are software design patterns really general and can be reused in various programs? Or are they just solutions with limited scope and don't deserve all the buzz they get? </p>
     <p>Let's have a short trip through the software design patterns we use, the one we don't need anymore and the ones we wish had never been used - all with a pinch of object orientation and a dram of dynamism.</p>
+- name: Wu
+  firstname: Katherine
+  avatar: katherine-wu.jpg
+  twitter: https://twitter.com/kwugirl
+  published: true
+  title: Be a better developer (no code required)
+  bio: Katherine studied Biology in college and was all set to attend medical school and fulfill her mother's dream of her becoming a doctor. Instead, she got a job at Google in tech support. After five years at Google, she took a sabbatical to attend Hackbright Academy. Now she's a junior developer at New Relic.
+  slug: katherine-wu
+  description: |
+    <p>Most developers focus on increasing their technical knowledge. However, there are many aspects to working as a professional developer besides coding proficiency. If you have interests or experience in other fields, you can pull in even those non-technical skills (like building relationships, project management) and immediately increase your impact on a project or team. When you mentor someone, you can help them play to their strengths and ramp up more quickly as a result.</p>
 - name: Reinhard
   firstname: Lena
   avatar: lena-reinhard.jpg
