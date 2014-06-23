@@ -53,6 +53,16 @@
   description: |
     <p>Picking the right abstractions can be very hard. Understanding object design helps us evaluate tradeoffs, but where do you get the raw ideas to evaluate?</p>
     <p>A group of developers attempted to rewrite a registration system for the 3rd time, and it turned out amazingly well because of some creative thinking. We'll focus on several concrete practices that can help to spark the creative process and give you new ideas the next time you have to do some design.</p>
+- name: Szotkowski
+  firstname: Piotr
+  avatar: piotr-szotkowski.jpg
+  twitter: https://twitter.com/chastell
+  published: true
+  title: Weak References Strongly Held
+  bio: "Piotr Szotkowski is a hacker scientist: an assistant professor at Warsaw University of Technology, a Ruby developer at Rebased and a founding member of Warsaw Hackerspace. When not coding (or giving talks about coding) he coaches at and helps organise Rails Girls Warsaw and organises Warsaw Ruby Users Group and NetWtorek - monthly meetings of people from the NGO/non-profit and IT sectors."
+  slug: piotr-szotkowski
+  description: |
+    <p>Ruby’s standard library is full of little-known... well, gems of interesting code – which might not be needed on a daily basis, but are super useful when required. From `continuation` and `etc` to `tsort` and `weakref`, learning about them means not only they might save you one day, but also make you a better developer (even if by researching the question ‘why on Earth would anyone package such a thing?’ Come and learn about the libraries you’re already using!</p>
 - name: Schuck
   firstname: T.J.
   avatar: tjschuck.jpg
