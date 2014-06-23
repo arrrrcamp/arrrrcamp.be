@@ -7,6 +7,17 @@
   bio: Aaron was born and raised on the mean streets of Salt Lake City. His only hope for survival was to join the local gang of undercover street ballet performers known as the Tender Tights. As a Tender Tights member, Aaron learned to perfect the technique of self-defense pirouettes so that nobody, not even the Parkour Posse could catch him. Between vicious street dance-offs, Aaron taught himself to program. He learned to combine the art of street ballet with the craft of software engineering. Using these unique skills, he was able to leave his life on the streets and become a professional software engineer. He is currently Pirouetting through Processes, and Couruing through code for AT&T. Sometimes he thinks back fondly on his life in the Tender Tights, but then he remembers that it is better to have Tender Loved and Lost than to never have Tender Taught at all.
   title: To be announced...
   slug: aaron-patterson
+- name: Heath
+  firstname: Fred
+  avatar: fred-heath.jpg
+  published: true
+  title: "Behavior-Driven Development: Feature this!"
+  bio: Fred is a software jack of all trades, having worked at every stage of the software development life-cycle. Having waded through tons of C++ and database programming, he discovered Ruby and its ecosystem and hasn't looked back since. After years in the corporate world he is now a freelance developer and consultant.
+  slug: fred-heath
+  description: |
+    <p>Have you tried BDD and given up? Thought it was too much trouble for too little reward? Didn't quite work for you? Fear not, you're not the only one. Many of us have been there, done it and got the 'not really my thing' t-shirt. But here's what I learned: it's not BDD, it's us! BDD works really well, but it has to be applied properly, following certain guidelines and avoiding specific errors.</p>
+    <p>During this talk we'll demonstrate the best way to start our BDD journey by defining our system, discovering our Features and writing them correctly, identifying best practices, detecting common traps and pitfalls and learning how to avoid them.</p>
+  github: https://github.com/RedFred7
 - name: Witek
   firstname: Grzegorz
   avatar: grzegorzwitek.png
