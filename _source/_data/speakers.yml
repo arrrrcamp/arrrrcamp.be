@@ -13,7 +13,7 @@
   avatar: fred-heath.jpg
   published: true
   title: "Behavior-Driven Development: Feature this!"
-  bio: Fred is a software jack of all trades, having worked at every stage of the software development life-cycle. Having waded through tons of C++ and database programming, he discovered Ruby and its ecosystem and hasn't looked back since. After years in the corporate world he is now a freelance developer and consultant.
+  bio: "Fred is a software jack of all trades, having worked at every stage of the software development life-cycle. Having waded through tons of C++ and database programming, he discovered Ruby and its ecosystem and hasn't looked back since. After years in the corporate world he is now a freelance developer and consultant."
   slug: fred-heath
   description: |
     <p>Have you tried BDD and given up? Thought it was too much trouble for too little reward? Didn't quite work for you? Fear not, you're not the only one. Many of us have been there, done it and got the 'not really my thing' t-shirt. But here's what I learned: it's not BDD, it's us! BDD works really well, but it has to be applied properly, following certain guidelines and avoiding specific errors.</p>
@@ -25,7 +25,7 @@
   twitter: https://twitter.com/arnvald
   published: true
   title: Patterns, patterns everywhere
-  bio: Grzegorz is a web developer constantly looking for new challenges. This month he is based in the Philippines, next month in Taiwan, and in October he's coming to Belgium.
+  bio: "Grzegorz is a web developer constantly looking for new challenges. This month he is based in the Philippines, next month in Taiwan, and in October he's coming to Belgium."
   slug: grzegorz-witek
   description: |
     <p>They're everywhere. They're on the leaf that falls from the tree straight on your head. They're on the building you pass everyday morning. They're on the socks you wear today and in the code you write. Patterns.</p>
@@ -43,13 +43,23 @@
     <p>Natural Language Processing (NLP) is the art and science of making sense of user-generated data. It is a combination of state-of-the-art computer science techniques and linguistics. </p>
     <p>Being able to analyze plain text data allows us to gain a lot of insights. Popular NLP tasks are text summarization, keyword extraction or automatic extraction of the author's opinion from a text. In the age of social media, only NLP provides solutions to analyze what users are really care about. Companies such as Google or Facebook invest millions in NLP solutions to harvest information from all the data they have been gathering over the years.</p>
     <p>In this talk, I will present you a real-world NLP problem. We will discuss this problem from both the linguistic and the computer science perspective. Throughout the talk, we will develop a processing pipeline to efficiently solve this problem in an automated fashion. An NLP pipeline usually consists of multiple components, each solving one aspect of the problem and presenting its own challenges. Among other things, you will learn how to tackle the following essential NLP problems using JRuby and OpenNLP: sentence segmentation, tokenization, part-of-speech tagging, and named entity recognition.</p>
+- name: Wu
+  firstname: Katherine
+  avatar: katherine-wu.jpg
+  twitter: https://twitter.com/kwugirl
+  published: true
+  title: Be a better developer (no code required)
+  bio: "Katherine studied Biology in college and was all set to attend medical school and fulfill her mother's dream of her becoming a doctor. Instead, she got a job at Google in tech support. After five years at Google, she took a sabbatical to attend Hackbright Academy. Now she's a junior developer at New Relic."
+  slug: katherine-wu
+  description: |
+    <p>Most developers focus on increasing their technical knowledge. However, there are many aspects to working as a professional developer besides coding proficiency. If you have interests or experience in other fields, you can pull in even those non-technical skills (like building relationships, project management) and immediately increase your impact on a project or team. When you mentor someone, you can help them play to their strengths and ramp up more quickly as a result.</p>
 - name: Reinhard
   firstname: Lena
   avatar: lena-reinhard.jpg
   twitter: https://twitter.com/ffffux
   published: true
   title: "This is bigger than us: Building a future for Open Source"
-  bio: Lena is a writer, editor and photographer specializing in communications, community building and project management in tech. She's a core team member of Hoodie, working on CouchDB. Other than that she's a founder and CEO, musician, surfer and traveller and feels very much alive.
+  bio: "Lena is a writer, editor and photographer specializing in communications, community building and project management in tech. She's a core team member of Hoodie, working on CouchDB. Other than that she's a founder and CEO, musician, surfer and traveller and feels very much alive."
   slug: lena-reinhard
   description: |
     <p>This talk will take you on a journey – from the days of the Easter Islands in the southeastern Pacific Ocean around 700CE, over the mid-15th century in England to Mars, rain forests and coral reefs of our days. On our way, we'll think about the relevance of Open Source Software technology-wise, see why the software we build is a hybrid and which impact this hybridism has on what we build and how. We'll think about Open Source Software's core values, and find out in which terms aiming for diversity (regarding gender, skills, ethnicities and ideas / backgrounds), user-centered approaches, democracy, decentralization and language will be core values when we're building the future of Open Source.</p>
@@ -60,7 +70,7 @@
   twitter: https://twitter.com/hqmq_
   published: true
   title: How I Accidentally Wrote the Best Code of my Career
-  bio: Michael found his love for programming by trying to make robots. He found his love for ruby by stumbling into the community. He organizes a local user group and can't get enough.
+  bio: "Michael found his love for programming by trying to make robots. He found his love for ruby by stumbling into the community. He organizes a local user group and can't get enough."
   slug: michael-ries
   description: |
     <p>Picking the right abstractions can be very hard. Understanding object design helps us evaluate tradeoffs, but where do you get the raw ideas to evaluate?</p>
