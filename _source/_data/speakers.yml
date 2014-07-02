@@ -75,6 +75,17 @@
   description: |
     <p>Picking the right abstractions can be very hard. Understanding object design helps us evaluate tradeoffs, but where do you get the raw ideas to evaluate?</p>
     <p>A group of developers attempted to rewrite a registration system for the 3rd time, and it turned out amazingly well because of some creative thinking. We'll focus on several concrete practices that can help to spark the creative process and give you new ideas the next time you have to do some design.</p>
+- name: Taszycki
+  firstname: Michal
+  avatar: michal-taszycki.jpg
+  twitter: https://twitter.com/mehowte
+  published: true
+  title: Ruby - Write Once, Run Anywhere
+  bio: Michal is a software developer at Base. He works on a revolutionary CRM making lives of professionals easier. He strives to improve as a programmer and enjoys sharing the knowledge during Code Retreats and the Programming Workout project.
+  slug: michal-taszycki
+  description: |
+    <p>Few years ago we could only envy Javascript programmers while their favourite language was becoming ubiquitous. Now, thanks to RubyMotion we can write iOS, OSX and Android applications. Opal.rb can execute Ruby in every browser. Finally, mruby allows us to embed Ruby in any C or C++ application. With these tools we can finally write truly Cross Platform Ruby apps.</p>
+    <p>In this talk you'll learn how to structure your application to reuse as much code as possible.</p>
 - name: Szotkowski
   firstname: Piotr
   avatar: piotr-szotkowski.jpg
