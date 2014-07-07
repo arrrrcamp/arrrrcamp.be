@@ -9,5 +9,13 @@ destination: public
 exclude: [public, Gemfile, Gemfile.lock, Rakefile, README.md]
 
 permalink: /blog/:year/:month/:day/:title
-markdown: rdiscount
+markdown: kramdown
 pygments: true
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  use_coderay: false
