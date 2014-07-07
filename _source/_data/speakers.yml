@@ -18,6 +18,17 @@
   slug: arjan-van-der-gaag
   description: |
     <p>I'm terrified that some day, someone will find out I'm not actually a good software developer. I was just faking it all along. I don't really belong here, among all these competent people. These are dangerous thoughts that will hinder creativity, confidence and lead to missed opportunities. Many people in many fields deal with impostor syndrome, but it's especially harmful to the software development community. This is a personal account of dealing with impostor syndrome as a software developer, a guide for dealing with it in development teams and a challenge to everybody else to have the courage to be awesome.</p>
+- name: Brasseur
+  firstname: Arne
+  avatar: arne-brasseur.jpg
+  twitter: https://twitter.com/plexus
+  published: true
+  title: Functional Programming for Rubyists
+  bio: Arne is a developer, public speaker, programming coach, author and open-source contributor. With a passion for both human and programming languages, he has spent the last decade teaching and exploring the finer points of Ruby, LISP, Haskell, Mandarin Chinese, and others. When not hopping conferences or Pacific islands, he can be found at his home base in Berlin, brewing fine teas while pondering the future of open-source and the web.
+  slug: arne-brasseur
+  description: |
+    <p>Ruby isn't exactly know for being a functional programming language, but neither is it known for <em>not</em> being a functional programming language. With lambdas, blocks, and Matz himself citing LISP as a major influence, there is very little stopping us from writing code in a functional style.</p>
+    <p>We'll cut straight through the smugness and jargon that typefies functional programming literature, and go straight to the essence. What does it mean to program "functionally", and what does it buy us. What patterns and techniques can we incorporate to write more flexible, maintainable code, and what are the caveats Rubyists specifically need to look out for.</p>
 - name: Heath
   firstname: Fred
   avatar: fred-heath.jpg
