@@ -11,7 +11,7 @@ Last year, Arne Brasseur organized Ruby Lambik, a tour of the Geuze and Lambik b
 
 We think a conference is as much about this kind of events (impromptu or not) as it is about the talks. With that in mind we want to facilitate a varied program of things to do for those of you getting to Belgium early or leaving late.
 
-Please register your interest or submit your own event(s) at http://events.arrrrcamp.be.[^1]
+Please register your interest or submit your own event(s) at [http://events.arrrrcamp.be](http://events.arrrrcamp.be).[^1]
 
 If you need a little more help to organize something feel free to get in touch with [the Captain](mailto:captain@arrrrcamp.be) and we'll work something out.
 
