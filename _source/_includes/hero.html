@@ -27,9 +27,9 @@
             ArrrrCamp is a conference for the modern developer interested in Ruby, Rails or the industry in general. Our event will inspire you, help you learn new things, meet new people and hang out with old friends.
           {% endif %}
         </h3>
-        {% unless page.tagline %}
-          <a href="https://ti.to/arrrrcamp/2014" class="btn">Get your ticket</a>
-        {% endunless %}
+        {% if page.class == 'home reddit' %}
+          <a href="https://ti.to/arrrrcamp/2014?discount_code=REDDIT10" class="btn">Use REDDIT10 for 10% off</a>
+        {% endif %}
       </article>
     </section>
   </div>
