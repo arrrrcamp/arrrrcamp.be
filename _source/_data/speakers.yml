@@ -5,9 +5,9 @@
   twitter: https://twitter.com/tenderlove
   published: true
   bio: Aaron was born and raised on the mean streets of Salt Lake City. His only hope for survival was to join the local gang of undercover street ballet performers known as the Tender Tights. As a Tender Tights member, Aaron learned to perfect the technique of self-defense pirouettes so that nobody, not even the Parkour Posse could catch him. Between vicious street dance-offs, Aaron taught himself to program. He learned to combine the art of street ballet with the craft of software engineering. Using these unique skills, he was able to leave his life on the streets and become a professional software engineer. He is currently Pirouetting through Processes, and Couruing through code for AT&T. Sometimes he thinks back fondly on his life in the Tender Tights, but then he remembers that it is better to have Tender Loved and Lost than to never have Tender Taught at all.
-  title: To be announced...
+  title: Cat Care and Maintenance
   slug: aaron-patterson
-  description: <p>To be announced...</p>
+  description: <p>In this talk we'll look at Rails view performance and implementation. We'll see how it currently works, and how it has changed. The process of changing and refactoring the code, including code inspection tools will be discussed so that applications outside of the Rails world can take advantage of the presented techniques. We will also discuss how to take care of cats, and which emoji is best.</p>
 - name: van der Gaag
   firstname: Arjan
   avatar: arjan-van-der-gaag.png
