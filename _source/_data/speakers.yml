@@ -102,7 +102,7 @@
   twitter: https://twitter.com/mehowte
   published: true
   title: Ruby - Write Once, Run Anywhere
-  bio: Michal is a software developer at Base. He works on a revolutionary CRM making lives of professionals easier. He strives to improve as a programmer and enjoys sharing the knowledge during Code Retreats and the Programming Workout project.
+  bio: Michal is a señor software developer at Gunpowder Labs. He strives to improve as a programmer and enjoys sharing the knowledge during Code Retreats and the Programming Workout project.
   slug: michal-taszycki
   description: |
     <p>Few years ago we could only envy Javascript programmers while their favourite language was becoming ubiquitous. Now, thanks to RubyMotion we can write iOS, OSX and Android applications. Opal.rb can execute Ruby in every browser. Finally, mruby allows us to embed Ruby in any C or C++ application. With these tools we can finally write truly Cross Platform Ruby apps.</p>
