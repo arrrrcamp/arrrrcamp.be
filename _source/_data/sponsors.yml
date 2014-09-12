@@ -7,6 +7,10 @@
   logo: dnsimple.png
   url: https://dnsimple.com
   type: bronze
+- name: Pluralsight
+  logo: pluralsight.png
+  url: http://pluralsight.com
+  type: bronze
 - name: PullReview
   logo: pullreview.png
   url: https://pullreview.com
