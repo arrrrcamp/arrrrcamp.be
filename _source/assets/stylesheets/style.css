@@ -315,6 +315,50 @@ body.speakers .speaker {
     padding-bottom: 1em;
     width: 150px; }
 
+body.schedule section.sessions h3 {
+  text-align: left;
+  margin: 0; }
+body.schedule section.sessions a {
+  color: #0b0b10; }
+  body.schedule section.sessions a:hover {
+    border-color: #0b0b10; }
+body.schedule section.sessions p {
+  margin: 0; }
+body.schedule section.sessions .duration-10, body.schedule section.sessions .duration-10 .session-info {
+  height: 1.34375em; }
+body.schedule section.sessions .duration-20, body.schedule section.sessions .duration-20 .session-info {
+  height: 2.6875em; }
+body.schedule section.sessions .duration-30, body.schedule section.sessions .duration-30 .session-info {
+  height: 4.03125em; }
+body.schedule section.sessions .duration-40, body.schedule section.sessions .duration-40 .session-info {
+  height: 5.375em; }
+body.schedule section.sessions .duration-50, body.schedule section.sessions .duration-50 .session-info {
+  height: 6.71875em; }
+body.schedule section.sessions .duration-60, body.schedule section.sessions .duration-60 .session-info {
+  height: 8.0625em; }
+body.schedule section.sessions .duration-70, body.schedule section.sessions .duration-70 .session-info {
+  height: 9.40625em; }
+body.schedule section.sessions .duration-80, body.schedule section.sessions .duration-80 .session-info {
+  height: 10.75em; }
+body.schedule section.sessions .duration-90, body.schedule section.sessions .duration-90 .session-info {
+  height: 12.09375em; }
+body.schedule section.sessions .duration-100, body.schedule section.sessions .duration-100 .session-info {
+  height: 13.4375em; }
+body.schedule section.sessions .session-time {
+  background: #d7ddcd;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px; }
+body.schedule section.sessions .day:first-child {
+  border-right: 1px solid #d3d3e0; }
+  body.schedule section.sessions .day:first-child .session-time {
+    float: right; }
+  body.schedule section.sessions .day:first-child .session-info p, body.schedule section.sessions .day:first-child .session-info h3 {
+    text-align: right; }
+body.schedule section.sessions .session, body.schedule section.sessions .break {
+  padding: 1em 2em; }
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* Styles for mobile */ }
 @media only screen and (min-width: 569x) {

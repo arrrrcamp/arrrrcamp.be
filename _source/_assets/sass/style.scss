@@ -437,6 +437,51 @@ body.speakers {
   }
 }
 
+body.schedule {
+  section.sessions {
+    h3 {
+      text-align: left;
+      margin: 0;
+    }
+
+    a {
+      color: $dark;
+      &:hover {
+        border-color: $dark;
+      }
+    }
+
+    p { margin: 0; }
+
+    @for $i from 1 through 10 {
+      .duration-#{$i}0, .duration-#{$i}0 .session-info {
+        height: 1.34375em * $i;
+      }
+    }
+
+    .session-time {
+      background: lighten($green, 40%);
+      @include border-radius(6px);
+    }
+
+    .day:first-child {
+      border-right: 1px solid lighten($dark, 80%);
+
+      .session-time {
+        float: right;
+      }
+
+      .session-info p, .session-info h3 {
+        text-align: right;
+      }
+    }
+
+    .session, .break {
+      padding: 1em 2em;
+    }
+  }
+}
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
   /* Styles for mobile */
