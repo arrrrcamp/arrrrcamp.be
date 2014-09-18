@@ -13,6 +13,12 @@ layout: default
       {% for session in site.data.schedule %}
         {% if session.day == 'thursday' %}
           <div class="session {{ session.type }} duration-{{ session.duration }} row">
+            {% if session.type == 'special' %}
+              <div class="session-time col-xs-2">{{ session.time }}</div>
+              <div class="session-info col-xs-9">
+                <h3>{{ session.description }}</h3>
+              </div>
+            {% endif %}
             {% if session.type == 'session' %}
               {% for speaker in site.data.speakers %}
                 {% if speaker.slug == session.speaker %}

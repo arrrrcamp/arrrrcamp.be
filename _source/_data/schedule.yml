@@ -1,4 +1,9 @@
 # encoding: UTF-8
+- type: special
+  description: BREAKFAST
+  duration: 30
+  time: "08:30"
+  day: thursday
 - speaker: michael-ries
   type: session
   duration: 40
@@ -58,6 +63,11 @@
   duration: 40
   time: "16:50"
   day: thursday
+- type: special
+  description: BREAKFAST
+  duration: 30
+  time: "08:30"
+  day: friday
 - speaker: aaron-patterson
   type: session
   duration: 40
