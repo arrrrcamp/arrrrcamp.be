@@ -3,6 +3,10 @@
   logo: honeybadger.png
   url: https://www.honeybadger.io
   type: silver
+- name: HirFox
+  logo: hitfox.png
+  url: http://www.hitfoxgroup.com
+  type: silver
 - name: DNSimple
   logo: dnsimple.png
   url: https://dnsimple.com
