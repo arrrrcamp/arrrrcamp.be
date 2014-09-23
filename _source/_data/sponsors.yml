@@ -31,3 +31,7 @@
   logo: translation_io.png
   url: http://translation.io
   type: gold
+- name: Twilio
+  logo: twilio.png
+  url: https://www.twilio.com
+  type: bronze
