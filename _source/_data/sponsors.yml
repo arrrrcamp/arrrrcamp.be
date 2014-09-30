@@ -35,3 +35,7 @@
   logo: twilio.png
   url: https://www.twilio.com
   type: bronze
+- name: COnfreaks
+  logo: confreaks.jpg
+  url: http://confreaks.com
+  type: video

@@ -54,6 +54,15 @@
         {% endif %}
       {% endfor %}
     </div>
+    <div class="sponsors video">
+      {% for sponsor in site.data.sponsors %}
+        {% if sponsor.type == 'video' %}
+          <div class="sponsor">
+            <a href="{{ sponsor.url }}"><img src="../assets/images/sponsors/{{ sponsor.logo }}"></a>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
     <h3>Would you like to give us a hand to put together a fantastic event?</h3>
     <p class="center">
       Take a look at our sponsor document to see how you can help.
