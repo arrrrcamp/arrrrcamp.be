@@ -31,7 +31,7 @@
   duration: 30
   time: "12:00"
   day: thursday
-- speaker: arjan-van-der-gaag
+- speaker: fred-heath
   type: session
   duration: 40
   time: "12:30"
@@ -95,7 +95,7 @@
   time: "12:00"
   duration: 30
   day: friday
-- speaker: fred-heath
+- speaker: arjan-van-der-gaag
   type: session
   duration: 40
   time: "12:30"
