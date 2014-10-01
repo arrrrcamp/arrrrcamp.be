@@ -11,6 +11,10 @@
   logo: microsoft.jpg
   url: http://www.microsoft.com
   type: silver
+- name: iMinds
+  logo: iminds.png
+  url: http://www.iminds.be
+  type: silver
 - name: DNSimple
   logo: dnsimple.png
   url: https://dnsimple.com
