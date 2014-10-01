@@ -3,7 +3,7 @@
   logo: honeybadger.png
   url: https://www.honeybadger.io
   type: silver
-- name: HirFox
+- name: HitFox
   logo: hitfox.png
   url: http://www.hitfoxgroup.com
   type: silver
@@ -43,7 +43,7 @@
   logo: twilio.png
   url: https://www.twilio.com
   type: bronze
-- name: COnfreaks
+- name: Confreaks
   logo: confreaks.jpg
   url: http://confreaks.com
   type: video
