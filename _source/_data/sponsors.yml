@@ -7,6 +7,10 @@
   logo: hitfox.png
   url: http://www.hitfoxgroup.com
   type: silver
+- name: Microsoft
+  logo: microsoft.jpg
+  url: http://www.microsoft.com
+  type: silver
 - name: DNSimple
   logo: dnsimple.png
   url: https://dnsimple.com
