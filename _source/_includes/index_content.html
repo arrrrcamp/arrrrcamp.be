@@ -4,65 +4,69 @@
     <p>
       Our speakers present a wide range of talks, from Ruby or Rails on the technical side, to inspirational talks about managing teams or communicating, all the way to front-end development and design. We’ve even been taught how to survive family parties!
     </p>
+    <p>
+      The Call for Proposals will be announced shortly. In the mean time you can
+      find out more about the process <a href="/cfp/">here</a>.
+    </p>
   </article>
 </section>
-
-<section class="row">
-  <article class="col-xs-12 col-sm-10 col-sm-offset-1">
-    <h2>Speakers</h2>
-    <div class="speakers-brief">
-      {% for speaker in site.data.speakers %}
-        {% if speaker.published == true %}
-          <div class="speaker">
-            <a href="/speakers/#{{ speaker.slug }}" class="avatar"><img src="../assets/images/speakers/{{ speaker.avatar }}"></a>
-            <h3><a href="/speakers/#{{ speaker.slug }}">{{ speaker.firstname }} {{ speaker.name }}</a></h3>
-            <h4><a href="/speakers/#{{ speaker.slug }}">{{ speaker.title }}</a></h4>
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-  </article>
-</section>
+<!--  -->
+<!-- <section class="row"> -->
+<!--   <article class="col&#45;xs&#45;12 col&#45;sm&#45;10 col&#45;sm&#45;offset&#45;1"> -->
+<!--     <h2>Speakers</h2> -->
+<!--     <div class="speakers&#45;brief"> -->
+<!--       {% for speaker in site.data.speakers %} -->
+<!--         {% if speaker.published == true %} -->
+<!--           <div class="speaker"> -->
+<!--             <a href="/speakers/#{{ speaker.slug }}" class="avatar"><img src="../assets/images/speakers/{{ speaker.avatar }}"></a> -->
+<!--             <h3><a href="/speakers/#{{ speaker.slug }}">{{ speaker.firstname }} {{ speaker.name }}</a></h3> -->
+<!--             <h4><a href="/speakers/#{{ speaker.slug }}">{{ speaker.title }}</a></h4> -->
+<!--           </div> -->
+<!--         {% endif %} -->
+<!--       {% endfor %} -->
+<!--     </div> -->
+<!--   </article> -->
+<!-- </section> -->
 
 <section class="row">
   <article class="col-xs-12 col-sm-10 col-sm-offset-1">
     <h2>Sponsors</h2>
-    <div class="sponsors gold">
-      {% for sponsor in site.data.sponsors %}
-        {% if sponsor.type == 'gold' %}
-          <div class="sponsor">
-            <a href="{{ sponsor.url }}"><img src="../assets/images/sponsors/{{ sponsor.logo }}"></a>
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-    <div class="sponsors silver">
-      {% for sponsor in site.data.sponsors %}
-        {% if sponsor.type == 'silver' %}
-          <div class="sponsor">
-            <a href="{{ sponsor.url }}"><img src="../assets/images/sponsors/{{ sponsor.logo }}"></a>
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-    <div class="sponsors bronze">
-      {% for sponsor in site.data.sponsors %}
-        {% if sponsor.type == 'bronze' %}
-          <div class="sponsor">
-            <a href="{{ sponsor.url }}"><img src="../assets/images/sponsors/{{ sponsor.logo }}"></a>
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-    <div class="sponsors video">
-      {% for sponsor in site.data.sponsors %}
-        {% if sponsor.type == 'video' %}
-          <div class="sponsor">
-            <a href="{{ sponsor.url }}"><img src="../assets/images/sponsors/{{ sponsor.logo }}"></a>
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
+    <!-- <div class="sponsors gold"> -->
+    <!--   {% for sponsor in site.data.sponsors %} -->
+    <!--     {% if sponsor.type == 'gold' %} -->
+    <!--       <div class="sponsor"> -->
+    <!--         <a href="{{ sponsor.url }}"><img src="../assets/images/sponsors/{{ sponsor.logo }}"></a> -->
+    <!--       </div> -->
+    <!--     {% endif %} -->
+    <!--   {% endfor %} -->
+    <!-- </div> -->
+    <!-- <div class="sponsors silver"> -->
+    <!--   {% for sponsor in site.data.sponsors %} -->
+    <!--     {% if sponsor.type == 'silver' %} -->
+    <!--       <div class="sponsor"> -->
+    <!--         <a href="{{ sponsor.url }}"><img src="../assets/images/sponsors/{{ sponsor.logo }}"></a> -->
+    <!--       </div> -->
+    <!--     {% endif %} -->
+    <!--   {% endfor %} -->
+    <!-- </div> -->
+    <!-- <div class="sponsors bronze"> -->
+    <!--   {% for sponsor in site.data.sponsors %} -->
+    <!--     {% if sponsor.type == 'bronze' %} -->
+    <!--       <div class="sponsor"> -->
+    <!--         <a href="{{ sponsor.url }}"><img src="../assets/images/sponsors/{{ sponsor.logo }}"></a> -->
+    <!--       </div> -->
+    <!--     {% endif %} -->
+    <!--   {% endfor %} -->
+    <!-- </div> -->
+    <!-- <div class="sponsors video"> -->
+    <!--   {% for sponsor in site.data.sponsors %} -->
+    <!--     {% if sponsor.type == 'video' %} -->
+    <!--       <div class="sponsor"> -->
+    <!--         <a href="{{ sponsor.url }}"><img src="../assets/images/sponsors/{{ sponsor.logo }}"></a> -->
+    <!--       </div> -->
+    <!--     {% endif %} -->
+    <!--   {% endfor %} -->
+    <!-- </div> -->
     <h3>Would you like to give us a hand to put together a fantastic event?</h3>
     <p class="center">
       Take a look at our sponsor document to see how you can help.
@@ -75,40 +79,40 @@
   <article class="col-xs-12 col-sm-10 col-sm-offset-1">
     <h2>A fantastic venue</h2>
     <p>
-    This year's edition will take place at the <a href="http://www.handelsbeurs.be/en">Handelsbeurs</a>. This amazing concert hall with big lounge area is located smack in the middle of Ghent’s city center within walking distance of the old city parts and with plenty of hotels, restaurants and pubs nearby. Our infamous public transportation will get you anywhere you need to be. Coming by car? We have an underground car park at our doorstep. Literally.
+    ArrrrCamp will take place at the <a href="http://www.handelsbeurs.be/en">Handelsbeurs</a>. This amazing concert hall with big lounge area is located smack in the middle of Ghent’s city center within walking distance of the old city parts and with plenty of hotels, restaurants and pubs nearby. Our infamous public transportation will get you anywhere you need to be. Coming by car? We have an underground car park at our doorstep. Literally.
     </p>
   </article>
 </section>
 
-<section class="row tickets">
-  <article class="col-xs-12 col-sm-10 col-sm-offset-1">
-    <h2>Tickets</h2>
-    <div class="row">
-      <div class="col-sm-4">
-        <h3 class="sold-out">Early bird</h3>
-        <div>&euro; 149</div>
-        <div>While supply lasts</div>
-      </div>
-      <div class="col-sm-4">
-        <h3 class="sold-out">Standard</h3>
-        <div>&euro; 199</div>
-      </div>
-      <div class="col-sm-4">
-        <h3>Last minute</h3>
-        <div>&euro; 242</div>
-        <div>If you decide after September 1st</div>
-      </div>
-    </div>
-    <p class="center"><small>Ticket prices are exclusive 21% VAT.</small></p>
-    {% if page.class == 'home reddit' %}
-      <a href="https://ti.to/arrrrcamp/2014?discount_code=REDDIT10" class="btn">Redditors get 10% off% off</a>
-    {% else %}
-      <a href="https://ti.to/arrrrcamp/2014" class="btn">Get your ticket now</a>
-    {% endif %}
-    <p class="center"><small>Need a place to stay? We're offering a <a href="/blog/2014/04/30/discounted-cabins-for-our-mateys/">discounted rate</a> at Accor Hotels.</small></p>
-    <p class="center">Not convinced yet? Take a look what our attendees and speakers had to say about the conference.</p>
-  </article>
-</section>
+<!-- <section class="row tickets"> -->
+<!--   <article class="col&#45;xs&#45;12 col&#45;sm&#45;10 col&#45;sm&#45;offset&#45;1"> -->
+<!--     <h2>Tickets</h2> -->
+<!--     <div class="row"> -->
+<!--       <div class="col&#45;sm&#45;4"> -->
+<!--         <h3 class="sold&#45;out">Early bird</h3> -->
+<!--         <div>&#38;euro; 149</div> -->
+<!--         <div>While supply lasts</div> -->
+<!--       </div> -->
+<!--       <div class="col&#45;sm&#45;4"> -->
+<!--         <h3 class="sold&#45;out">Standard</h3> -->
+<!--         <div>&#38;euro; 199</div> -->
+<!--       </div> -->
+<!--       <div class="col&#45;sm&#45;4"> -->
+<!--         <h3>Last minute</h3> -->
+<!--         <div>&#38;euro; 242</div> -->
+<!--         <div>If you decide after September 1st</div> -->
+<!--       </div> -->
+<!--     </div> -->
+<!--     <p class="center"><small>Ticket prices are exclusive 21% VAT.</small></p> -->
+<!--     {% if page.class == 'home reddit' %} -->
+<!--       <a href="https://ti.to/arrrrcamp/2014?discount_code=REDDIT10" class="btn">Redditors get 10% off% off</a> -->
+<!--     {% else %} -->
+<!--       <a href="https://ti.to/arrrrcamp/2014" class="btn">Get your ticket now</a> -->
+<!--     {% endif %} -->
+<!--     <p class="center"><small>Need a place to stay? We're offering a <a href="/blog/2014/04/30/discounted&#45;cabins&#45;for&#45;our&#45;mateys/">discounted rate</a> at Accor Hotels.</small></p> -->
+<!--     <p class="center">Not convinced yet? Take a look what our attendees and speakers had to say about the conference.</p> -->
+<!--   </article> -->
+<!-- </section> -->
 
 <section class="row">
   <article class="col-xs-12 col-sm-10 col-sm-offset-1">
@@ -159,11 +163,11 @@
 <section class="row">
   <article class="col-xs-12 col-sm-10 col-sm-offset-1">
     <h3>We hope you'll join the ship. See you at the conference!</h3>
-    {% if page.class == 'home reddit' %}
-      <a href="https://ti.to/arrrrcamp/2014?discount_code=REDDIT10" class="btn">Book your ticket now and get 10% off</a>
-    {% else %}
-      <a href="https://ti.to/arrrrcamp/2014" class="btn">Book your ticket here</a>
-    {% endif %}
-    <p class="center"><small>Need a place to stay? We're offering a <a href="/blog/2014/04/30/discounted-cabins-for-our-mateys/">discounted rate</a> at Accor Hotels.</small></p>
+    <!-- {% if page.class == 'home reddit' %} -->
+    <!--   <a href="https://ti.to/arrrrcamp/2014?discount_code=REDDIT10" class="btn">Book your ticket now and get 10% off</a> -->
+    <!-- {% else %} -->
+    <!--   <a href="https://ti.to/arrrrcamp/2014" class="btn">Book your ticket here</a> -->
+    <!-- {% endif %} -->
+    <!-- <p class="center"><small>Need a place to stay? We're offering a <a href="/blog/2014/04/30/discounted&#45;cabins&#45;for&#45;our&#45;mateys/">discounted rate</a> at Accor Hotels.</small></p> -->
   </article>
 </section>
