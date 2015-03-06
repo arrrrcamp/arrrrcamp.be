@@ -10,7 +10,7 @@ exclude: [public, Gemfile, Gemfile.lock, Rakefile, README.md]
 
 permalink: /blog/:year/:month/:day/:title
 markdown: kramdown
-pygments: true
+highlighter: pygments
 
 kramdown:
   auto_ids: true
