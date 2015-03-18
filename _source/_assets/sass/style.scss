@@ -378,7 +378,7 @@ blockquote {
   }
 }
 
-.speakers-brief {
+.speakers-brief, .crew-brief {
   text-align: center;
   &:after {
     display: table;
@@ -386,9 +386,10 @@ blockquote {
     clear: both;
   }
 
-  .speaker {
+  .speaker { height: 21em; }
+  .crewmember { height: 16em; }
+  .speaker, .crewmember {
     width: 14em;
-    height: 21em;
     display: inline-block;
     vertical-align: top;
     h3 {
