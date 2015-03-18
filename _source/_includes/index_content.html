@@ -137,6 +137,22 @@
 
 <section class="row">
   <article class="col-xs-12 col-sm-10 col-sm-offset-1">
+    <h2>The crew</h2>
+    <div class="crew-brief">
+      {% for member in site.data.crew %}
+        <div class="crewmember">
+          <a href="https://twitter.com/{{ member.twitter }}"
+            class="avatar"><img src="../assets/images/crew/{{ member.avatar }}"></a>
+          <h3><a href="https://twitter.com/{{ member.twitter }}">{{ member.name }}</a></h3>
+          <h4><a href="https://twitter.com/{{ member.twitter }}">@{{ member.twitter }}</a></h3>
+        </div>
+      {% endfor %}
+    </div>
+  </article>
+</section>
+
+<section class="row">
+  <article class="col-xs-12 col-sm-10 col-sm-offset-1">
     <h2>Code of Conduct</h2>
     <p>
       We dedicate ourselves to making everyone feel welcome and at home, both during the conference and at the fringe events. Our Code of Conduct offers some guidelines to ensure this for both attendees and speakers. The crew is available to anyone who is anything less than completely comfortable at our events.

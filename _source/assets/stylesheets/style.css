@@ -277,30 +277,33 @@ blockquote {
         max-width: 100%;
         vertical-align: center; }
 
-.speakers-brief {
+.speakers-brief, .crew-brief {
   text-align: center; }
-  .speakers-brief:after {
+  .speakers-brief:after, .crew-brief:after {
     display: table;
     content: ' ';
     clear: both; }
-  .speakers-brief .speaker {
+  .speakers-brief .speaker, .crew-brief .speaker {
+    height: 21em; }
+  .speakers-brief .crewmember, .crew-brief .crewmember {
+    height: 16em; }
+  .speakers-brief .speaker, .speakers-brief .crewmember, .crew-brief .speaker, .crew-brief .crewmember {
     width: 14em;
-    height: 21em;
     display: inline-block;
     vertical-align: top; }
-    .speakers-brief .speaker h4 {
+    .speakers-brief .speaker h4, .speakers-brief .crewmember h4, .crew-brief .speaker h4, .crew-brief .crewmember h4 {
       max-width: 90%;
       margin: 0 auto; }
-      .speakers-brief .speaker h4 a {
+      .speakers-brief .speaker h4 a, .speakers-brief .crewmember h4 a, .crew-brief .speaker h4 a, .crew-brief .crewmember h4 a {
         color: #0b0b10; }
-        .speakers-brief .speaker h4 a:hover, .speakers-brief .speaker h4 a:active {
+        .speakers-brief .speaker h4 a:hover, .speakers-brief .speaker h4 a:active, .speakers-brief .crewmember h4 a:hover, .speakers-brief .crewmember h4 a:active, .crew-brief .speaker h4 a:hover, .crew-brief .speaker h4 a:active, .crew-brief .crewmember h4 a:hover, .crew-brief .crewmember h4 a:active {
           border-bottom: 1px solid #0b0b10; }
-    .speakers-brief .speaker .avatar {
+    .speakers-brief .speaker .avatar, .speakers-brief .crewmember .avatar, .crew-brief .speaker .avatar, .crew-brief .crewmember .avatar {
       width: 150px;
       display: inline-block; }
-      .speakers-brief .speaker .avatar:hover, .speakers-brief .speaker .avatar:active {
+      .speakers-brief .speaker .avatar:hover, .speakers-brief .speaker .avatar:active, .speakers-brief .crewmember .avatar:hover, .speakers-brief .crewmember .avatar:active, .crew-brief .speaker .avatar:hover, .crew-brief .speaker .avatar:active, .crew-brief .crewmember .avatar:hover, .crew-brief .crewmember .avatar:active {
         border: 0; }
-      .speakers-brief .speaker .avatar img {
+      .speakers-brief .speaker .avatar img, .speakers-brief .crewmember .avatar img, .crew-brief .speaker .avatar img, .crew-brief .crewmember .avatar img {
         max-width: 100%; }
 
 body.speakers h2 {
@@ -390,3 +393,5 @@ body.schedule section.sessions .session, body.schedule section.sessions .break {
     font-size: 1.25em; } }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
   /* Don't forget your Retina CSS! */ }
+
+/*# sourceMappingURL=style.css.map */
