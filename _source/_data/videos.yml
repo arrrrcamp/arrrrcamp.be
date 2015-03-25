@@ -413,3 +413,73 @@
   title: Lightning talks
   url: https://www.youtube.com/watch?v=lN9DWl51WeI
   edition: 2013
+-
+  name: Michael Ries
+  title: How I Accidentally Wrote the Best Code of my Career
+  url: https://www.youtube.com/watch?v=c6rtwWy5V8w
+  edition: 2014
+-
+  name: Piotr Szotkowski
+  title: Weak References Strongly Held
+  url: https://www.youtube.com/watch?v=khFGIeOOVeQ
+  edition: 2014
+-
+  name: Katherine Wu
+  title: Be a better developer (no code required)
+  url: https://www.youtube.com/watch?v=u-LS1hMdSg4
+  edition: 2014
+-
+  name: Fred Heath
+  title: "Behavior-Driven Development: Feature this!"
+  url: https://www.youtube.com/watch?v=eTxDoFatfHg
+  edition: 2014
+-
+  name: Thorsten Ball
+  title: Unicorn Unix Magic Tricks
+  url: https://www.youtube.com/watch?v=DGhlQomeqKc
+  edition: 2014
+-
+  name: T.J. Schuck
+  title: "80,000 Plaintext Passwords: An Open Source Love Story in Three Acts"
+  url: https://www.youtube.com/watch?v=knILamfZ0Gc
+  edition: 2014
+-
+  name: Michal Taszycki
+  title: "Ruby - Write Once, Run Anywhere"
+  url: https://www.youtube.com/watch?v=kBjNwEBhQnw
+  edition: 2014
+-
+  name: Aaron Patterson
+  title: Cat Care and Maintenance
+  url: https://www.youtube.com/watch?v=-D15q-_hdzs
+  edition: 2014
+-
+  name: Konstantin Tennhard
+  title: Natural Language Processing with Ruby
+  url: https://www.youtube.com/watch?v=5u86qVh8r0M
+  edition: 2014
+-
+  name: Grzegorz Witek
+  title: "Patterns, patterns everywhere"
+  url: https://www.youtube.com/watch?v=xf0QdvA7lO4
+  edition: 2014
+-
+  name: Arjan van der Gaag
+  title: "Debugging facades: dealing with imposter syndrome as a developer"
+  url: https://www.youtube.com/watch?v=wKz7mOZ4P-A
+  edition: 2014
+-
+  name: Arne Brasseur
+  title: Functional Programming for Rubyists
+  url: https://www.youtube.com/watch?v=JcFmnF3BDIM
+  edition: 2014
+-
+  name: A lot of arrrrsome people
+  title: Lightning talks
+  url: https://www.youtube.com/watch?v=RPMX_o5Y1tg
+  edition: 2014
+-
+  name: Lena Reinhard
+  title: "This is bigger than us: Building a future for Open Source"
+  url: https://www.youtube.com/watch?v=bTwEGxkBG5Y
+  edition: 2014
