@@ -11,6 +11,18 @@
     <p>Ruby has slowly but surely added support for keyword arguments.</p>
     <p>Starting from the implicit braces for a hash at the end of an argument list, it has grown up to required keyword arguments in 2.1.</p>
     <p>This talk will try to convince you that keyword arguments are a lie and don't even exist, and why you should use them anyway.</p>
+- name: R. Clark
+  firstname: Jason
+  avatar: jasonrclark.png
+  twitter: https://twitter.com/jasonrclark
+  published: true
+  bio: "Jason fell in love with programming as a young boy watching his dad work in Clipper and dBase III (no, really). The obsession sparked there continues to this day. He works for New Relic on the Ruby Agent, and in his spare time contributes to the Shoes project. When not at work, he enjoy cycling, homebrewing, and hanging out with his family."
+  title: "Peeking into Ruby: Tracing Running Code"
+  slug: jason-r-clark
+  description: |-
+    <p>Your Ruby app is in production, but something isn't quite right. It worked locally, it passed CI... why is the running app acting weird?</p>
+    <p>If this sounds familiar, you're in luck. Multiple tools exist for grappling with a running Ruby app. This talk will introduce a variety of tools and techniques for peeking into what your Ruby app is doing. From Ruby-level method tracing using rbtrace, all the way down to watching kernel syscalls with strace, you can see what your app is doing, and I'll show you how.</p>
+    <p>Don't let your production system go unwatched!</p>
 - name: Myers
   firstname: Rachel
   avatar: rachelmyers.jpg
