@@ -1,4 +1,79 @@
 # encoding: UTF-8
+- name: Leisse
+  firstname: Alexandra
+  avatar: alexandraleisse.jpg
+  twitter: https://twitter.com/troubalex
+  published: true
+  bio: "Alexandra discovered the Usenet in 1994 and has been lost ever since. She started toying with web sites when browsers were called Lynx, and she contributed to KDE. In the middle of it all, she spent 10 years living big drama on opera stages. She currently works as Lead Interaction Designer for Iterate AS, and is the co-organiser of the Rails Girls chapter in Oslo."
+  title: Developers, start designing!
+  slug: alexandra-leisse
+  description: |-
+    <p>We designers have been told for ages to learn how to program because we needed to know the technology. On the other hand, very few developers bother doing the same with design. This usually leads to worse results than necessary, and robs us of the opportunity to play on the same team.</p>
+    <p>This presentation is meant to contribute to the much needed discussion about how developers and designers can work together to achieve excellence without losing their minds. Attendees should leave the room afterwards with a certain insight in how ignorance hinders best outcomes and how they personally can improve the situation.</p>
+- name: Barrié
+  firstname: Étienne
+  avatar: etiennebarrie.jpg
+  twitter: https://twitter.com/bihi
+  published: true
+  bio: "Étienne is a Rubyist with 10 years of experience, faithful to HTTP and enthusiastic git force pusher. He recently moved from Paris to Montréal to join the Shopify team."
+  title: Ruby keyword args and the options hash, from the parser to the virtual machine
+  slug: etienne-barrie
+  description: |-
+    <p>Ruby has slowly but surely added support for keyword arguments.</p>
+    <p>Starting from the implicit braces for a hash at the end of an argument list, it has grown up to required keyword arguments in 2.1.</p>
+    <p>This talk will try to convince you that keyword arguments are a lie and don't even exist, and why you should use them anyway.</p>
+- name: Rishi
+  firstname: Jain
+  avatar: rishijain.jpg
+  twitter: https://twitter.com/jainrishi15
+  published: true
+  bio: "Jain works as a Rails developer at JoshSoftware in Pune, India. He enjoys speaking at conferences and contributes to various open source project. When not at work, he enjoys football, traveling and blogging."
+  title: Game Development - The Ruby way
+  slug: jain-rishi
+  description: |-
+    <p>After a tiring day at work, you want to build something fun in lets say 4 hours? Writing Games is the answer ..!! Playing games is fun, but building one is even more fun. And add ruby to game development, it just cannot get more awesome. Gosu is the rock star library which is used for 2D game development. But it’s not just ruby that you need to know to build a game, it is also the MATHS. From this session, you will learn the following things:
+        <ul>
+          <li>Maths</li>
+          <li>Game-loop</li>
+          <li>Images</li>
+          <li>Player & Movement Animations</li>
+          <li>Text & Sound</li>
+          <li>Detecting Collisions</li>
+        </ul>
+      </p>
+      <p>Along with these, you will also get to see some cool games built entirely using ruby.</p>
+- name: R. Clark
+  firstname: Jason
+  avatar: jasonrclark.png
+  twitter: https://twitter.com/jasonrclark
+  published: true
+  bio: "Jason fell in love with programming as a young boy watching his dad work in Clipper and dBase III (no, really). The obsession sparked there continues to this day. He works for New Relic on the Ruby Agent, and in his spare time contributes to the Shoes project. When not at work, he enjoy cycling, homebrewing, and hanging out with his family."
+  title: "Peeking into Ruby: Tracing Running Code"
+  slug: jason-r-clark
+  description: |-
+    <p>Your Ruby app is in production, but something isn't quite right. It worked locally, it passed CI... why is the running app acting weird?</p>
+    <p>If this sounds familiar, you're in luck. Multiple tools exist for grappling with a running Ruby app. This talk will introduce a variety of tools and techniques for peeking into what your Ruby app is doing. From Ruby-level method tracing using rbtrace, all the way down to watching kernel syscalls with strace, you can see what your app is doing, and I'll show you how.</p>
+    <p>Don't let your production system go unwatched!</p>
+- name: Puschke
+  firstname: Kerstin
+  avatar: kerstinpuschke.jpg
+  twitter: https://twitter.com/titanoboa42
+  published: true
+  bio: "Kerstin is a software engineer living in Hamburg where she contributes to the backend of XING, a social network for business professionals with about 15 million users. She's also a co-organizer of Hamburg's awesome Ruby user group."
+  title: "Decouple all the things: Asynchronous messaging keeps it simple"
+  slug: kerstin-puschke
+  description: |-
+    <p>If a customer changes their address, it's often not enough to update their master data record. E.g. the component processing customer orders might have to learn about the update in order to ship to the correct address. In a distributed architecture, you have to spread information about a master data update to several client apps. You can do this via REST, but if a client app is temporarily down or too busy to accept requests, it's going to miss the information. Adding a new client app requires changes to the master app. Asynchronous messaging helps to avoid such a tight coupling of components. And it offers much more than a simple action trigger: Parallelizing computing-heavy tasks, load testing, or migrating existing components to new services are some of the possibilities explored in this talk. You're going to learn how to get started with asynchronous messaging from within Ruby, and how it helps you to keep your codebase clean and your overall system stable as well as maintainable.</p>
+- name: Frank
+  firstname: Laura
+  avatar: laurafrank.jpg
+  twitter: https://twitter.com/rhein_wein
+  published: true
+  bio: "Laura is a software engineer specializing in containerized virtualization, specifically Docker. She and her colleagues at CenturyLink Labs create tools to make working with containers easier for other developers. She started coding after receiving a hand-me-down DOS system and has been lost in the code mines ever since. She has spoken about Docker all over the US and in Europe, and currently lives in Chicago (or preferably in window seat of an Airbus 340)."
+  title: Developing Ruby Applications with Docker
+  slug: laura-frank
+  description: |-
+    <p>Docker’s lightweight virtualization may supplant our hypervisor-backed VMs at some point in the future, and change the way that tomorrow's Ruby applications are architected, packaged and deployed. Using Docker, your applications will sit atop an excellent platform for packing, shipping and running low-overhead, isolated execution environments. You will get a brief intro to the Docker ecosystem, get to know the tools and processes needed to create containerized applications, and learn best practices for interacting with the Docker API and CLI.</p>
 - name: Myers
   firstname: Rachel
   avatar: rachelmyers.jpg
@@ -8,4 +83,29 @@
   title: to be announced
   slug: rachel-myers
   description: <p>To be announced.</p>
-
+- name: Phippen
+  firstname: Sam
+  avatar: samphippen.jpg
+  twitter: http://twitter.com/samphippen
+  published: true
+  bio: "Sam Phippen is a swashbuckling hacker from London, UK. He fixes every size of data problem at Fun and Plausible Solutions. He helps fight for the forces of justice as a member of the RSpec core team. He's sad that he can't hug every cat."
+  title: Extremely Defensive Coding
+  slug: sam-phippen
+  description: |-
+    <p>Defensive programming is one of those abstract ideas that seems great. We all want to use these ideas to ensure the long-term maintainability of our codebases. It is, however, often unclear what we should be defending against and what form those defenses should take. We can find places where defensive patterns could be added by looking at the edge cases that occur in our system. Where it seems appropriate, we can then apply ideas and patterns from defensive programming.</p>
+    <p>In this talk we'll look at some of the extremely defensive patterns that have been driven out in RSpec throughout the years. We'll look at building Ruby that works accross a wide range of interpreters and versions (including 1.8.7!). We'll investigate how you can write code that defends against objects that redefine methods like send, method and is_a?. We'll also see how the behaviour of prepend can occasionally confuse even the most mature source bases.</p>
+    <p>You should come to this talk if you want to learn about inheritence and method resolution in ruby, defensive programming techniques and cross interpreter Ruby patterns.</p>
+- name: Beary
+  firstname: Wesley
+  avatar: wesleybeary.png
+  twitter: http://twitter.com/geemus
+  published: true
+  bio: "Wesley is an avid Rubyist, Open Sourcer and Herokai. He spends days designing APIs at Heroku and free time working on open source, developing games, prototyping world domination schemes, building furniture and hacking his health."
+  title: API by Design
+  slug: wesley-beary
+  description: |-
+    <p>In a world of pervasive connectivity, APIs are more important than ever before.</p>
+    <p>We can learn much from the rich history of APIs, but even more promise lies ahead of us.</p>
+    <p>Difficult hardly begins to describe API development, but drawing from other disciplines provides a clearer path to superior APIs.</p>
+    <p>Building and evolving the Heroku APIs has been full of epic wins, tragic fails and ongoing struggles.</p>
+    <p>Learn about our journey and join our community to discuss, document, and build tools to realize the promise of a brighter API future.</p>
