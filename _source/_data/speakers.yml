@@ -54,6 +54,16 @@
     <p>Your Ruby app is in production, but something isn't quite right. It worked locally, it passed CI... why is the running app acting weird?</p>
     <p>If this sounds familiar, you're in luck. Multiple tools exist for grappling with a running Ruby app. This talk will introduce a variety of tools and techniques for peeking into what your Ruby app is doing. From Ruby-level method tracing using rbtrace, all the way down to watching kernel syscalls with strace, you can see what your app is doing, and I'll show you how.</p>
     <p>Don't let your production system go unwatched!</p>
+- name: Frank
+  firstname: Laura
+  avatar: laurafrank.jpg
+  twitter: https://twitter.com/rhein_wein
+  published: true
+  bio: "Laura is a software engineer specializing in containerized virtualization, specifically Docker. She and her colleagues at CenturyLink Labs create tools to make working with containers easier for other developers. She started coding after receiving a hand-me-down DOS system and has been lost in the code mines ever since. She has spoken about Docker all over the US and in Europe, and currently lives in Chicago (or preferably in window seat of an Airbus 340)."
+  title: Developing Ruby Applications with Docker
+  slug: laura-frank
+  description: |-
+    <p>Docker’s lightweight virtualization may supplant our hypervisor-backed VMs at some point in the future, and change the way that tomorrow's Ruby applications are architected, packaged and deployed. Using Docker, your applications will sit atop an excellent platform for packing, shipping and running low-overhead, isolated execution environments. You will get a brief intro to the Docker ecosystem, get to know the tools and processes needed to create containerized applications, and learn best practices for interacting with the Docker API and CLI.</p>
 - name: Myers
   firstname: Rachel
   avatar: rachelmyers.jpg
