@@ -11,6 +11,26 @@
     <p>Ruby has slowly but surely added support for keyword arguments.</p>
     <p>Starting from the implicit braces for a hash at the end of an argument list, it has grown up to required keyword arguments in 2.1.</p>
     <p>This talk will try to convince you that keyword arguments are a lie and don't even exist, and why you should use them anyway.</p>
+- name: Rishi
+  firstname: Jain
+  avatar: rishijain.jpg
+  twitter: https://twitter.com/jainrishi15
+  published: true
+  bio: "Jain works as a Rails developer at JoshSoftware in Pune, India. He enjoys speaking at conferences and contributes to various open source project. When not at work, he enjoys football, traveling and blogging."
+  title: Game Development - The Ruby way
+  slug: jain-rishi
+  description: |-
+    <p>After a tiring day at work, you want to build something fun in lets say 4 hours? Writing Games is the answer ..!! Playing games is fun, but building one is even more fun. And add ruby to game development, it just cannot get more awesome. Gosu is the rock star library which is used for 2D game development. But it’s not just ruby that you need to know to build a game, it is also the MATHS. From this session, you will learn the following things:
+        <ul>
+          <li>Maths</li>
+          <li>Game-loop</li>
+          <li>Images</li>
+          <li>Player & Movement Animations</li>
+          <li>Text & Sound</li>
+          <li>Detecting Collisions</li>
+        </ul>
+      </p>
+      <p>Along with these, you will also get to see some cool games built entirely using ruby.</p>
 - name: R. Clark
   firstname: Jason
   avatar: jasonrclark.png
