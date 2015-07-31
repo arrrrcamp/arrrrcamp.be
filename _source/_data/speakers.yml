@@ -1,4 +1,16 @@
 # encoding: UTF-8
+- name: Barrié
+  firstname: Étienne
+  avatar: etiennebarrie.jpg
+  twitter: https://twitter.com/bihi
+  published: true
+  bio: "Étienne is a Rubyist with 10 years of experience, faithful to HTTP and enthusiastic git force pusher. He recently moved from Paris to Montréal to join the Shopify team."
+  title: Ruby keyword args and the options hash, from the parser to the virtual machine
+  slug: etienne-barrie
+  description: |-
+    <p>Ruby has slowly but surely added support for keyword arguments.</p>
+    <p>Starting from the implicit braces for a hash at the end of an argument list, it has grown up to required keyword arguments in 2.1.</p>
+    <p>This talk will try to convince you that keyword arguments are a lie and don't even exist, and why you should use them anyway.</p>
 - name: Myers
   firstname: Rachel
   avatar: rachelmyers.jpg
