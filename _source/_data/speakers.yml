@@ -54,6 +54,16 @@
     <p>Your Ruby app is in production, but something isn't quite right. It worked locally, it passed CI... why is the running app acting weird?</p>
     <p>If this sounds familiar, you're in luck. Multiple tools exist for grappling with a running Ruby app. This talk will introduce a variety of tools and techniques for peeking into what your Ruby app is doing. From Ruby-level method tracing using rbtrace, all the way down to watching kernel syscalls with strace, you can see what your app is doing, and I'll show you how.</p>
     <p>Don't let your production system go unwatched!</p>
+- name: Puschke
+  firstname: Kerstin
+  avatar: kerstinpuschke.jpg
+  twitter: https://twitter.com/titanoboa42
+  published: true
+  bio: "Kerstin is a software engineer living in Hamburg where she contributes to the backend of XING, a social network for business professionals with about 15 million users. She's also a co-organizer of Hamburg's awesome Ruby user group."
+  title: "Decouple all the things: Asynchronous messaging keeps it simple"
+  slug: kerstin-puschke
+  description: |-
+    <p>If a customer changes their address, it's often not enough to update their master data record. E.g. the component processing customer orders might have to learn about the update in order to ship to the correct address. In a distributed architecture, you have to spread information about a master data update to several client apps. You can do this via REST, but if a client app is temporarily down or too busy to accept requests, it's going to miss the information. Adding a new client app requires changes to the master app. Asynchronous messaging helps to avoid such a tight coupling of components. And it offers much more than a simple action trigger: Parallelizing computing-heavy tasks, load testing, or migrating existing components to new services are some of the possibilities explored in this talk. You're going to learn how to get started with asynchronous messaging from within Ruby, and how it helps you to keep your codebase clean and your overall system stable as well as maintainable.</p>
 - name: Frank
   firstname: Laura
   avatar: laurafrank.jpg
