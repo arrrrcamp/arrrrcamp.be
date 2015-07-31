@@ -20,4 +20,15 @@
   title: to be announced
   slug: rachel-myers
   description: <p>To be announced.</p>
-
+- name: Phippen
+  firstname: Sam
+  avatar: samphippen.jpg
+  twitter: http://twitter.com/samphippen
+  published: true
+  bio: "Sam Phippen is a swashbuckling hacker from London, UK. He fixes every size of data problem at Fun and Plausible Solutions. He helps fight for the forces of justice as a member of the RSpec core team. He's sad that he can't hug every cat."
+  title: Extremely Defensive Coding
+  slug: sam-phippen
+  description: |-
+    <p>Defensive programming is one of those abstract ideas that seems great. We all want to use these ideas to ensure the long-term maintainability of our codebases. It is, however, often unclear what we should be defending against and what form those defenses should take. We can find places where defensive patterns could be added by looking at the edge cases that occur in our system. Where it seems appropriate, we can then apply ideas and patterns from defensive programming.</p>
+    <p>In this talk we'll look at some of the extremely defensive patterns that have been driven out in RSpec throughout the years. We'll look at building Ruby that works accross a wide range of interpreters and versions (including 1.8.7!). We'll investigate how you can write code that defends against objects that redefine methods like send, method and is_a?. We'll also see how the behaviour of prepend can occasionally confuse even the most mature source bases.</p>
+    <p>You should come to this talk if you want to learn about inheritence and method resolution in ruby, defensive programming techniques and cross interpreter Ruby patterns.</p>
