@@ -1,34 +1,34 @@
-<section class="row">
-  <article class="col-xs-12 col-sm-10 col-sm-offset-1">
-    <h2>Topics</h2>
-    <p>
-      Our speakers present a wide range of talks, from Ruby or Rails on the technical side, to inspirational talks about managing teams or communicating, all the way to front-end development and design. We’ve even been taught how to survive family parties!
-    </p>
-    <p>
-      The Call for Proposals is open, submit your talk, and join our ship.
-     </p>
-     <p class="center">
-      <a href="/cfp/" class="btn cta">Submit your talk</a>
-    </p>
-  </article>
-</section>
-<!--  -->
 <!-- <section class="row"> -->
 <!--   <article class="col&#45;xs&#45;12 col&#45;sm&#45;10 col&#45;sm&#45;offset&#45;1"> -->
-<!--     <h2>Speakers</h2> -->
-<!--     <div class="speakers&#45;brief"> -->
-<!--       {% for speaker in site.data.speakers %} -->
-<!--         {% if speaker.published == true %} -->
-<!--           <div class="speaker"> -->
-<!--             <a href="/speakers/#{{ speaker.slug }}" class="avatar"><img src="../assets/images/speakers/{{ speaker.avatar }}"></a> -->
-<!--             <h3><a href="/speakers/#{{ speaker.slug }}">{{ speaker.firstname }} {{ speaker.name }}</a></h3> -->
-<!--             <h4><a href="/speakers/#{{ speaker.slug }}">{{ speaker.title }}</a></h4> -->
-<!--           </div> -->
-<!--         {% endif %} -->
-<!--       {% endfor %} -->
-<!--     </div> -->
+<!--     <h2>Topics</h2> -->
+<!--     <p> -->
+<!--       Our speakers present a wide range of talks, from Ruby or Rails on the technical side, to inspirational talks about managing teams or communicating, all the way to front&#45;end development and design. We’ve even been taught how to survive family parties! -->
+<!--     </p> -->
+<!--     <p> -->
+<!--       The Call for Proposals is open, submit your talk, and join our ship. -->
+<!--      </p> -->
+<!--      <p class="center"> -->
+<!--       <a href="/cfp/" class="btn cta">Submit your talk</a> -->
+<!--     </p> -->
 <!--   </article> -->
 <!-- </section> -->
+
+<section class="row">
+  <article class="col-xs-12 col-sm-10 col-sm-offset-1">
+    <h2>Speakers</h2>
+    <div class="speakers-brief">
+      {% for speaker in site.data.speakers %}
+        {% if speaker.published == true %}
+          <div class="speaker">
+            <a href="/speakers/#{{ speaker.slug }}" class="avatar"><img src="../assets/images/speakers/{{ speaker.avatar }}"></a>
+            <h3><a href="/speakers/#{{ speaker.slug }}">{{ speaker.firstname }} {{ speaker.name }}</a></h3>
+            <h4><a href="/speakers/#{{ speaker.slug }}">{{ speaker.title }}</a></h4>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </article>
+</section>
 
 <section class="row">
   <article class="col-xs-12 col-sm-10 col-sm-offset-1">
