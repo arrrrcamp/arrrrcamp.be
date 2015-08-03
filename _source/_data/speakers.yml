@@ -4,7 +4,7 @@
   avatar: alexandraleisse.jpg
   twitter: https://twitter.com/troubalex
   published: true
-  bio: "Alexandra discovered the Usenet in 1994 and has been lost ever since. She started toying with web sites when browsers were called Lynx, and she contributed to KDE. In the middle of it all, she spent 10 years living big drama on opera stages. She currently works as Lead Interaction Designer for Iterate AS, and is the co-organiser of the Rails Girls chapter in Oslo."
+  bio: "Alexandra discovered the Usenet in 1994 and has been lost ever since. She started toying with web sites when browsers were called Lynx and she contributed to KDE. In the middle of it all, she spent 10 years living big drama on opera stages. She currently works as Lead Interaction Designer for Iterate AS and is the co-organiser of the Rails Girls chapter in Oslo."
   title: Developers, start designing!
   slug: alexandra-leisse
   description: |-
@@ -31,7 +31,7 @@
   title: Game Development - The Ruby way
   slug: jain-rishi
   description: |-
-    <p>After a tiring day at work, you want to build something fun in lets say 4 hours? Writing Games is the answer ..!! Playing games is fun, but building one is even more fun. And add ruby to game development, it just cannot get more awesome. Gosu is the rock star library which is used for 2D game development. But it’s not just ruby that you need to know to build a game, it is also the MATHS. From this session, you will learn the following things:
+    <p>After a tiring day at work, you want to build something fun in lets say 4 hours? Writing Games is the answer! Playing games is fun, but building one is even more fun. And add Ruby to game development, it just cannot get more awesome. Gosu is the rock star library which is used for 2D game development. But it’s not just Ruby that you need to know to build a game, it is also the MATHS. From this session, you will learn the following things:
         <ul>
           <li>Maths</li>
           <li>Game-loop</li>
@@ -41,7 +41,7 @@
           <li>Detecting Collisions</li>
         </ul>
       </p>
-      <p>Along with these, you will also get to see some cool games built entirely using ruby.</p>
+      <p>Along with these, you will also get to see some cool games built entirely using Ruby.</p>
 - name: R. Clark
   firstname: Jason
   avatar: jasonrclark.png
@@ -63,7 +63,7 @@
   title: "Decouple all the things: Asynchronous messaging keeps it simple"
   slug: kerstin-puschke
   description: |-
-    <p>If a customer changes their address, it's often not enough to update their master data record. E.g. the component processing customer orders might have to learn about the update in order to ship to the correct address. In a distributed architecture, you have to spread information about a master data update to several client apps. You can do this via REST, but if a client app is temporarily down or too busy to accept requests, it's going to miss the information. Adding a new client app requires changes to the master app. Asynchronous messaging helps to avoid such a tight coupling of components. And it offers much more than a simple action trigger: Parallelizing computing-heavy tasks, load testing, or migrating existing components to new services are some of the possibilities explored in this talk. You're going to learn how to get started with asynchronous messaging from within Ruby, and how it helps you to keep your codebase clean and your overall system stable as well as maintainable.</p>
+    <p>If a customer changes their address, it's often not enough to update their master data record. E.g. the component processing customer orders might have to learn about the update in order to ship to the correct address. In a distributed architecture, you have to spread information about a master data update to several client apps. You can do this via REST, but if a client app is temporarily down or too busy to accept requests, it's going to miss the information. Adding a new client app requires changes to the master app. Asynchronous messaging helps to avoid such a tight coupling of components. And it offers much more than a simple action trigger: parallelizing computing-heavy tasks, load testing, or migrating existing components to new services are some of the possibilities explored in this talk. You're going to learn how to get started with asynchronous messaging from within Ruby, and how it helps you to keep your codebase clean and your overall system stable as well as maintainable.</p>
 - name: Frank
   firstname: Laura
   avatar: laurafrank.jpg
@@ -79,7 +79,7 @@
   avatar: rachelmyers.jpg
   twitter: https://twitter.com/rachelmyers
   published: true
-  bio: "Rachel is a developer at GitHub who loves ruby; she also does things she loves less, like javascript (coffeescript, really), email, and front end performance monitoring. She is on the Board of, and a volunteer for, RailsBridge, which holds free workshops around the world to teach Ruby and Rails to marginalized groups, including women, people of color and non-English speakers. In her free time she likes doing her nails and playing legos, which don't really go together well."
+  bio: "Rachel is a developer at GitHub who loves Ruby; she also does things she loves less, like javascript (coffeescript, really), email, and front end performance monitoring. She is on the Board of, and a volunteer for, RailsBridge, which holds free workshops around the world to teach Ruby and Rails to marginalized groups, including women, people of color and non-English speakers. In her free time she likes doing her nails and playing legos, which don't really go together well."
   title: to be announced
   slug: rachel-myers
   description: <p>To be announced.</p>
@@ -94,7 +94,7 @@
   description: |-
     <p>Defensive programming is one of those abstract ideas that seems great. We all want to use these ideas to ensure the long-term maintainability of our codebases. It is, however, often unclear what we should be defending against and what form those defenses should take. We can find places where defensive patterns could be added by looking at the edge cases that occur in our system. Where it seems appropriate, we can then apply ideas and patterns from defensive programming.</p>
     <p>In this talk we'll look at some of the extremely defensive patterns that have been driven out in RSpec throughout the years. We'll look at building Ruby that works accross a wide range of interpreters and versions (including 1.8.7!). We'll investigate how you can write code that defends against objects that redefine methods like send, method and is_a?. We'll also see how the behaviour of prepend can occasionally confuse even the most mature source bases.</p>
-    <p>You should come to this talk if you want to learn about inheritence and method resolution in ruby, defensive programming techniques and cross interpreter Ruby patterns.</p>
+    <p>You should come to this talk if you want to learn about inheritence and method resolution in Ruby, defensive programming techniques and cross interpreter Ruby patterns.</p>
 - name: Beary
   firstname: Wesley
   avatar: wesleybeary.png
