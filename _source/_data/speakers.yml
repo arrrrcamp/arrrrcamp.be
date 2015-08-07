@@ -10,6 +10,20 @@
   description: |-
     <p>We designers have been told for ages to learn how to program because we needed to know the technology. On the other hand, very few developers bother doing the same with design. This usually leads to worse results than necessary, and robs us of the opportunity to play on the same team.</p>
     <p>This presentation is meant to contribute to the much needed discussion about how developers and designers can work together to achieve excellence without losing their minds. Attendees should leave the room afterwards with a certain insight in how ignorance hinders best outcomes and how they personally can improve the situation.</p>
+- name: Pike
+  firstname: Andy
+  avatar: andypike.jpg
+  twitter: http://twitter.com/andypike
+  published: true
+  bio: "Andy is based in leafy Surrey in the UK and is Technical Director of LoyaltyLion, who offer loyalty programs to e-commerce stores by integrating with many popular platforms. When Andy isn't hacking on Ruby you'll find him mining for diamonds with his kids in Minecraft or watching the latest eSports tournament."
+  title: Opening up to change
+  slug: andy-pike
+  description: |-
+    <p>The one constant in software is change.</p>
+    <p>Your code will need to change and adapt over time. We should try to write code that is easy to change in the future. If possible, change without having to edit existing code.</p>
+    <p>This talk is all about the O in SOLID: the Open-Closed principle. I'll explain what the Open-Closed principle is, why this is important and how to structure and refactor code to make it "open for extension but closed for modification".</p>
+    <p>In this talk I'll show you, by example, how to make your code more changeable. In fact, so changeable that you will be able to extend what your program does and how it behaves without modifying a single line of existing code. Starting with a real world example that is painful to extend, I’ll refactor it over many iterations until it truly is Open-Closed. I'll show techniques, trade-offs and some gotchas from real world experience which will help you write more flexible programs in the future.</p>
+    <p>If you’ve never heard of the Open-Closed principle or are unsure how to put it into practice then this talk is for you. I would love to help open the door of this technique and give you the ability to alter your system in a painless way by opening it up to change.</p>
 - name: Barrié
   firstname: Étienne
   avatar: etiennebarrie.jpg
@@ -22,6 +36,18 @@
     <p>Ruby has slowly but surely added support for keyword arguments.</p>
     <p>Starting from the implicit braces for a hash at the end of an argument list, it has grown up to required keyword arguments in 2.1.</p>
     <p>This talk will try to convince you that keyword arguments are a lie and don't even exist, and why you should use them anyway.</p>
+- name: Weingarten
+  firstname: Florian
+  avatar: florianweingarten.jpg
+  twitter: http://twitter.com/fw1729
+  published: true
+  bio: "Originally from Germany, studied mathematics and computer science at RWTH-Aachen University, did some research on cryptography in a previous life, now working as an infrastructure engineer on the site-reliability engineering team at Shopify in Ottawa, Canada, poking holes into other people's code."
+  title: How to stay alive even when others go down: Writing and testing resilient applications in Ruby
+  slug: florian-weingarten
+  description: |-
+    <p>Your application probably communicates with other services, whether it's a database, a key/value store, or a third-party API: you are performing "external calls". But do you know how your application behaves when one of those external services is behaving unexpected, is unreachable, or sometimes even worse, experiences high latency? This is something that you want to find out during testing, not in production, since it can easily lead to a series of cascading failures that will seriously affect your capacity or can even take your application down.</p>
+    <p>Shopify operates one of the largest Ruby on Rails deployments in the world. We serve about 300k requests per minute on a boring day, integrating with countless external services. Focussing on Resiliency has been one of the most impactful improvements that we made in terms of uptime in the last year.</p>
+    <p>In this talk, I will share some lessons learnt and we will walk through a series of ideas and tools that can help you make your application more stable and more resilient to the failure of external services, an issue that is often neglected until it's too late. More importantly, we will talk about how you can write meaningful and realistic integration tests and set up "chaos testing environments" to gain confidence in your application's resiliency.</p>
 - name: Rishi
   firstname: Jain
   avatar: rishijain.jpg
