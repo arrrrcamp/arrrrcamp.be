@@ -42,7 +42,7 @@
   twitter: http://twitter.com/fw1729
   published: true
   bio: "Originally from Germany, studied mathematics and computer science at RWTH-Aachen University, did some research on cryptography in a previous life, now working as an infrastructure engineer on the site-reliability engineering team at Shopify in Ottawa, Canada, poking holes into other people's code."
-  title: How to stay alive even when others go down: Writing and testing resilient applications in Ruby
+  title: "How to stay alive even when others go down: Writing and testing resilient applications in Ruby"
   slug: florian-weingarten
   description: |-
     <p>Your application probably communicates with other services, whether it's a database, a key/value store, or a third-party API: you are performing "external calls". But do you know how your application behaves when one of those external services is behaving unexpected, is unreachable, or sometimes even worse, experiences high latency? This is something that you want to find out during testing, not in production, since it can easily lead to a series of cascading failures that will seriously affect your capacity or can even take your application down.</p>
