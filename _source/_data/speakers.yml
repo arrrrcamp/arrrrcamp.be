@@ -4,7 +4,7 @@
   avatar: alexandraleisse.jpg
   twitter: https://twitter.com/troubalex
   published: true
-  bio: "Alexandra discovered the Usenet in 1994 and has been lost ever since. She started toying with web sites when browsers were called Lynx and she contributed to KDE. In the middle of it all, she spent 10 years living big drama on opera stages. She currently works as Lead Interaction Designer for Iterate AS and is the co-organiser of the Rails Girls chapter in Oslo."
+  bio: "Alexandra discovered the Usenet in 1994 and has been lost ever since. She started toying with web sites when browsers were called Lynx and she contributed to KDE. She spent 10 years living big drama on opera stages, is currently working as Lead Interaction Designer for Iterate AS and is the co-organiser of the Rails Girls chapter in Oslo."
   title: Developers, start designing!
   slug: alexandra-leisse
   description: |-
@@ -27,39 +27,27 @@
   avatar: rishijain.jpg
   twitter: https://twitter.com/jainrishi15
   published: true
-  bio: "Jain works as a Rails developer at JoshSoftware in Pune, India. He enjoys speaking at conferences and contributes to various open source project. When not at work, he enjoys football, traveling and blogging."
+  bio: "Jain works as a Rails developer at JoshSoftware in India. He enjoys speaking at conferences and contributes to various open source projects. When not at work, he enjoys football, traveling and blogging."
   title: Game Development - The Ruby way
   slug: jain-rishi
   description: |-
-    <p>After a tiring day at work, you want to build something fun in lets say 4 hours? Writing Games is the answer! Playing games is fun, but building one is even more fun. And add Ruby to game development, it just cannot get more awesome. Gosu is the rock star library which is used for 2D game development. But it’s not just Ruby that you need to know to build a game, it is also the MATHS. From this session, you will learn the following things:
-        <ul>
-          <li>Maths</li>
-          <li>Game-loop</li>
-          <li>Images</li>
-          <li>Player & Movement Animations</li>
-          <li>Text & Sound</li>
-          <li>Detecting Collisions</li>
-        </ul>
-      </p>
-      <p>Along with these, you will also get to see some cool games built entirely using Ruby.</p>
+    <p>Playing games is fun, but building one is even more fun! Add Ruby to the game development mix and it just cannot get more awesome. Gosu is the rock star library which is used for 2D game development. But you’ll need to know more than just your rubies to built a game. Rishi promises to show some cool examples built entirely using Ruby.</p>
 - name: R. Clark
   firstname: Jason
   avatar: jasonrclark.png
   twitter: https://twitter.com/jasonrclark
   published: true
-  bio: "Jason fell in love with programming as a young boy watching his dad work in Clipper and dBase III (no, really). The obsession sparked there continues to this day. He works for New Relic on the Ruby Agent, and in his spare time contributes to the Shoes project. When not at work, he enjoy cycling, homebrewing, and hanging out with his family."
+  bio: "Jason fell in love with programming as a young boy watching his dad work in Clipper and dBase III (no, really). He works for New Relic on the Ruby Agent, and in his spare time contributes to the Shoes project. When not at work, he enjoys cycling, homebrewing, and hanging out with his family."
   title: "Peeking into Ruby: Tracing Running Code"
   slug: jason-r-clark
   description: |-
-    <p>Your Ruby app is in production, but something isn't quite right. It worked locally, it passed CI... why is the running app acting weird?</p>
-    <p>If this sounds familiar, you're in luck. Multiple tools exist for grappling with a running Ruby app. This talk will introduce a variety of tools and techniques for peeking into what your Ruby app is doing. From Ruby-level method tracing using rbtrace, all the way down to watching kernel syscalls with strace, you can see what your app is doing, and I'll show you how.</p>
-    <p>Don't let your production system go unwatched!</p>
+    <p>Your Ruby app is in production, but something isn't quite right. It worked locally, it passed CI... yet the running app is acting up. Sounds familiar? You're in luck! Multiple tools exist for grappling with a running Ruby app. This talk will introduce a variety of tools and techniques for peeking into what your Ruby app is doing.</p>
 - name: Puschke
   firstname: Kerstin
   avatar: kerstinpuschke.jpg
   twitter: https://twitter.com/titanoboa42
   published: true
-  bio: "Kerstin is a software engineer living in Hamburg where she contributes to the backend of XING, a social network for business professionals with about 15 million users. She's also a co-organizer of Hamburg's awesome Ruby user group."
+  bio: "Kerstin is a software engineer living in Hamburg where she contributes to the backend of XING, a social network for business professionals with about 15 million users. She's also a co-organizer of the Hamburg Ruby user group."
   title: "Decouple all the things: Asynchronous messaging keeps it simple"
   slug: kerstin-puschke
   description: |-
@@ -69,7 +57,7 @@
   avatar: laurafrank.jpg
   twitter: https://twitter.com/rhein_wein
   published: true
-  bio: "Laura is a software engineer specializing in containerized virtualization, specifically Docker. She and her colleagues at CenturyLink Labs create tools to make working with containers easier for other developers. She started coding after receiving a hand-me-down DOS system and has been lost in the code mines ever since. She has spoken about Docker all over the US and in Europe, and currently lives in Chicago (or preferably in window seat of an Airbus 340)."
+  bio: "Laura is a software engineer specializing in containerized virtualization, specifically Docker. She and her colleagues at CenturyLink Labs create tools to make working with containers easier for other developers. She started coding after receiving a hand-me-down DOS system and has been lost in the code mines ever since."
   title: Developing Ruby Applications with Docker
   slug: laura-frank
   description: |-
