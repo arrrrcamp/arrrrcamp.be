@@ -24,6 +24,19 @@
     <p>This talk is all about the O in SOLID: the Open-Closed principle. I'll explain what the Open-Closed principle is, why this is important and how to structure and refactor code to make it "open for extension but closed for modification".</p>
     <p>In this talk I'll show you, by example, how to make your code more changeable. In fact, so changeable that you will be able to extend what your program does and how it behaves without modifying a single line of existing code. Starting with a real world example that is painful to extend, I’ll refactor it over many iterations until it truly is Open-Closed. I'll show techniques, trade-offs and some gotchas from real world experience which will help you write more flexible programs in the future.</p>
     <p>If you’ve never heard of the Open-Closed principle or are unsure how to put it into practice then this talk is for you. I would love to help open the door of this technique and give you the ability to alter your system in a painless way by opening it up to change.</p>
+- name: C. Zona
+  firstname: Carina
+  avatar: carinaczona.jpg
+  twitter: https://twitter.com/cczona
+  published: true
+  bio: "Carina C. Zona is a developer, community builder, advocate, certified sex educator, and whimsical gluten-free baker. She has been an organizer &amp; instructor for many tech women's organizations. Carina is the founder of @CallbackWomen. She spends a lot of time thinking about the unexpected cultural effects of our decisions as programmers."
+  title: Consequences of an Insightful Algorithm
+  slug: carina-c-zona
+  description: |-
+    <p>We have ethical responsibilities when coding. We're able to extract remarkably precise intuitions about an individual. But do we have a right to know what they didn't consent to share, even when they willingly shared the data that leads us there? A major retailer's data-driven marketing accidentially revealed to a teen's family that she was pregnant. Eek.</p>
+    <p>What are our obligations to people who did not expect themselves to be so intimately known without sharing directly? How do we mitigate against unintended outcomes? For instance, a social network algorithm accidentally triggering painful memories for families grieving their child's death.</p>
+    <p>We design software for humans. Balancing human needs and business specs can be tough. It's crucial that we learn how to build in systematic empathy.</p>
+    <p>In this talk, we'll delve into specific examples of uncritical programming, and painful results from using insightful data in ways that were benignly intended. You'll learn ways we can integrate practices for examining how our code might harm individuals. We'll look at how to flip the paradigm, netting consequences that can be better for everyone.</p>
 - name: Barrié
   firstname: Étienne
   avatar: etiennebarrie.jpg
