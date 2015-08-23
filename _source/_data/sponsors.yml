@@ -1,49 +1,14 @@
 # encoding: UTF-8
-# - name: Honeybadger
-#   logo: honeybadger.png
-#   url: https://www.honeybadger.io
-#   type: silver
-# - name: HitFox
-#   logo: hitfox.png
-#   url: http://www.hitfoxgroup.com
-#   type: silver
-# - name: Microsoft
-#   logo: microsoft.jpg
-#   url: http://www.microsoft.com
-#   type: silver
-# - name: iMinds
-#   logo: iminds.png
-#   url: http://www.iminds.be
-#   type: silver
-# - name: DNSimple
-#   logo: dnsimple.png
-#   url: https://dnsimple.com
-#   type: bronze
-# - name: Pluralsight
-#   logo: pluralsight.png
-#   url: http://pluralsight.com
-#   type: bronze
-# - name: PullReview
-#   logo: pullreview.png
-#   url: https://pullreview.com
-#   type: bronze
-# - name: 10to1
-#   logo: 10to1.jpeg
-#   url: http://10to1.be
-#   type: bronze
-# - name: Semaphore
-#   logo: semaphore.png
-#   url: https://semaphoreapp.com
-#   type: bronze
-# - name: Translation.io
-#   logo: translation_io.png
-#   url: http://translation.io
-#   type: gold
-# - name: Twilio
-#   logo: twilio.png
-#   url: https://www.twilio.com
-#   type: bronze
-# - name: Confreaks
-#   logo: confreaks.png
-#   url: http://confreaks.com
-#   type: video
+- name: Vaso
+  logo: vasco.png
+  url: http://vasco.com
+  type: gold
+- name: PullReview
+  logo: pullreview.png
+  url: https://pullreview.com
+  type: bronze
+- name: Epic
+  logo: epic.png
+  url: http://epic.net
+  type: bronze
+
