@@ -107,7 +107,7 @@
   twitter: https://twitter.com/rachelmyers
   published: true
   bio: "Rachel is a developer at GitHub who loves Ruby; she also does things she loves less, like javascript (coffeescript, really), email, and front end performance monitoring. She is on the Board of, and a volunteer for, RailsBridge, which holds free workshops around the world to teach Ruby and Rails to marginalized groups, including women, people of color and non-English speakers. In her free time she likes doing her nails and playing legos, which don't really go together well."
-  title: Stop Building Services, Episode 1: The Phantom Menace
+  title: "Stop Building Services, Episode 1: The Phantom Menace"
   slug: rachel-myers
   description: |-
     <p>This talk runs through examples of services creating more brittle systems with worse failure cases. Building on those failure scenarios, I draw out guidelines for if, when, and how to consider Service Oriented Architecture. Software architecture is informed both by principles of software design and principles of operability; for lots of us, there are new skills to learn there. Also, set to music, this talk becomes a cool remake of StarWars, Episode 1.</p>
