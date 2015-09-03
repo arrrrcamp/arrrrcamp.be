@@ -456,7 +456,7 @@ body.schedule {
 
     @for $i from 1 through 10 {
       .duration-#{$i}0, .duration-#{$i}0 .session-info {
-        height: 1.34375em * $i;
+        height: 1.75em * $i;
       }
     }
 
@@ -478,7 +478,7 @@ body.schedule {
     }
 
     .session, .break {
-      padding: 1em 2em;
+      padding: 0 2em;
     }
   }
 }

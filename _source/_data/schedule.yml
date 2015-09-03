@@ -1,125 +1,125 @@
 # encoding: UTF-8
 - type: special
-  description: BREAKFAST
+  description: DOORS OPEN
   duration: 30
-  time: "08:30"
-  day: thursday
-- speaker: michael-ries
-  type: session
-  duration: 40
   time: "09:00"
   day: thursday
-- type: break
-  duration: 30
-  time: "09:40"
-  day: thursday
-- speaker: piotr-szotkowski
+- speaker: sam-phippen
   type: session
   duration: 40
+  time: "09:30"
+  day: thursday
+- type: break
+  duration: 30
   time: "10:10"
   day: thursday
-- type: break
-  duration: 30
-  time: "10:50"
-  day: thursday
-- speaker: katherine-wu
+- speaker: florian-weingarten
   type: session
   duration: 40
-  time: "11:20"
+  time: "10:40"
   day: thursday
 - type: break
   duration: 30
-  time: "12:00"
+  time: "11:10"
   day: thursday
-- speaker: fred-heath
+- speaker: laura-frank
   type: session
   duration: 40
-  time: "12:30"
-  day: thursday
-- type: break
-  duration: 80
-  time: "13:10"
-  day: thursday
-- speaker: thorsten-ball
-  type: session
-  duration: 40
-  time: "14:30"
-  day: thursday
-- type: break
-  duration: 30
-  time: "15:10"
-  day: thursday
-- speaker: tj-schuck
-  type: session
-  duration: 40
-  time: "15:40"
-  day: thursday
-- type: break
-  duration: 30
-  time: "16:20"
-  day: thursday
-- speaker: michal-taszycki
-  type: session
-  duration: 40
-  time: "16:50"
+  time: "11:50"
   day: thursday
 - type: special
-  description: BREAKFAST
-  duration: 30
-  time: "08:30"
-  day: friday
-- speaker: aaron-patterson
-  type: session
-  duration: 40
-  time: "09:00"
-  day: friday
-- type: break
-  duration: 30
-  time: "09:40"
-  day: friday
-- speaker: konstantin-tennhard
-  type: session
-  duration: 40
-  time: "10:10"
-  day: friday
-- type: break
-  duration: 30
-  time: "10:50"
-  day: friday
-- speaker: grzegorz-witek
-  type: session
-  duration: 40
-  time: "11:20"
-  day: friday
-- type: break
-  time: "12:00"
-  duration: 30
-  day: friday
-- speaker: arjan-van-der-gaag
-  type: session
-  duration: 40
-  time: "12:30"
-  day: friday
-- type: break
+  description: LUNCH
   duration: 80
-  time: "13:10"
-  day: friday
-- speaker: arne-brasseur
+  time: "12:30"
+  day: thursday
+- speaker: jason-r-clark
   type: session
   duration: 40
-  time: "14:30"
-  day: friday
+  time: "13:50"
+  day: thursday
 - type: break
-  duration: 60
-  time: "15:10"
-  day: friday
+  duration: 30
+  time: "14:30"
+  day: thursday
+- speaker: etienne-barrie
+  type: session
+  duration: 40
+  time: "15:00"
+  day: thursday
+- type: break
+  duration: 30
+  time: "15:40"
+  day: thursday
 - type: special
   description: LIGHTNING TALKS
   duration: 40
   time: "16:10"
-  day: friday
-- speaker: lena-reinhard
+  day: thursday
+- speaker: carina-c-zona
   type: session
   duration: 40
-  time: "16:50"
+  time: "17:40"
+  day: thursday
+
+- type: special
+  description: DOORS
+  duration: 30
+  time: "09:00"
+  day: friday
+- speaker: wesley-beary
+  type: session
+  duration: 40
+  time: "09:30"
+  day: friday
+- type: break
+  duration: 30
+  time: "10:10"
+  day: friday
+- speaker: andy-pike
+  type: session
+  duration: 40
+  time: "10:40"
+  day: friday
+- type: break
+  duration: 30
+  time: "11:20"
+  day: friday
+- speaker: alexandra-leisse
+  type: session
+  duration: 40
+  time: "11:50"
+  day: friday
+- type: special
+  description: LUNCH
+  time: "12:30"
+  duration: 80
+  day: friday
+- speaker: jain-rishi
+  type: session
+  duration: 40
+  time: "13:50"
+  day: friday
+- type: break
+  duration: 30
+  time: "14:30"
+  day: friday
+- speaker: kerstin-puschke
+  type: session
+  duration: 40
+  time: "15:00"
+  day: friday
+- type: special
+  description: COCKTAIL BREAK
+  duration: 60
+  time: "15:40"
+  day: friday
+- type: special
+  description: LIGHTNING TALKS
+  duration: 40
+  time: "16:40"
+  day: friday
+- speaker: rachel-myers
+  type: session
+  duration: 40
+  time: "18:10"
   day: friday

@@ -328,25 +328,25 @@ body.schedule section.sessions a {
 body.schedule section.sessions p {
   margin: 0; }
 body.schedule section.sessions .duration-10, body.schedule section.sessions .duration-10 .session-info {
-  height: 1.34375em; }
+  height: 1.75em; }
 body.schedule section.sessions .duration-20, body.schedule section.sessions .duration-20 .session-info {
-  height: 2.6875em; }
+  height: 3.5em; }
 body.schedule section.sessions .duration-30, body.schedule section.sessions .duration-30 .session-info {
-  height: 4.03125em; }
+  height: 5.25em; }
 body.schedule section.sessions .duration-40, body.schedule section.sessions .duration-40 .session-info {
-  height: 5.375em; }
+  height: 7em; }
 body.schedule section.sessions .duration-50, body.schedule section.sessions .duration-50 .session-info {
-  height: 6.71875em; }
+  height: 8.75em; }
 body.schedule section.sessions .duration-60, body.schedule section.sessions .duration-60 .session-info {
-  height: 8.0625em; }
+  height: 10.5em; }
 body.schedule section.sessions .duration-70, body.schedule section.sessions .duration-70 .session-info {
-  height: 9.40625em; }
+  height: 12.25em; }
 body.schedule section.sessions .duration-80, body.schedule section.sessions .duration-80 .session-info {
-  height: 10.75em; }
+  height: 14em; }
 body.schedule section.sessions .duration-90, body.schedule section.sessions .duration-90 .session-info {
-  height: 12.09375em; }
+  height: 15.75em; }
 body.schedule section.sessions .duration-100, body.schedule section.sessions .duration-100 .session-info {
-  height: 13.4375em; }
+  height: 17.5em; }
 body.schedule section.sessions .session-time {
   background: #d7ddcd;
   -webkit-border-radius: 6px;
@@ -360,7 +360,7 @@ body.schedule section.sessions .day:first-child {
   body.schedule section.sessions .day:first-child .session-info p, body.schedule section.sessions .day:first-child .session-info h3 {
     text-align: right; }
 body.schedule section.sessions .session, body.schedule section.sessions .break {
-  padding: 1em 2em; }
+  padding: 0 2em; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* Styles for mobile */ }
