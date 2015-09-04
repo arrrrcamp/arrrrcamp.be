@@ -1,6 +1,6 @@
 # encoding: UTF-8
 - type: special
-  description: DOORS OPEN
+  description: DOORS & REGISTRATION
   duration: 30
   time: "09:00"
   day: thursday
@@ -62,7 +62,7 @@
   day: thursday
 
 - type: special
-  description: DOORS
+  description: DOORS & REGISTRATION
   duration: 30
   time: "09:00"
   day: friday
