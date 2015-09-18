@@ -3,6 +3,10 @@
   logo: vasco.png
   url: http://vasco.com
   type: gold
+- name: Codeship
+  logo: codeship.png
+  url: https://codeship.com
+  type: gold
 - name: PullReview
   logo: pullreview.png
   url: https://pullreview.com
@@ -11,4 +15,7 @@
   logo: epic.png
   url: http://epic.net
   type: bronze
-
+- name: Up-nxt
+  logo: upnxt.png
+  url: http://up-nxt.com
+  type: bronze
