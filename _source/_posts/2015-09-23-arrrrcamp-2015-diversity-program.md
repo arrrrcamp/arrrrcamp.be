@@ -6,11 +6,11 @@ title: ArrrrCamp 2015 diversity program
 Arrrr mateys,
 
 The fantastic people of **eurucamp and Ruby Berlin e.V.** have offered to
-sponsor a number of tickets, along with **Twilio** and **PullReview**. We are
-offering these tickets as part of a diversity program aimed to help
-underrepresented groups in tech to attend and lowering the barriers for them.
-This includes but isn’t limited to: women, people of color, LGBTQIA+ people, and
-disabled people.
+sponsor a number of tickets, along with **Twilio** and **PullReview**. In total
+we are offering up to 12 free tickets as part of a diversity program aimed to
+help underrepresented groups in tech to attend and lowering the barriers for
+them. This includes but isn’t limited to: women, people of color, LGBTQIA+
+people, and disabled people.
 
 Because the event is next week already we urge you to fill in the form below as
 soon as possible. Our jury will start picking the winners of the tickets **by
