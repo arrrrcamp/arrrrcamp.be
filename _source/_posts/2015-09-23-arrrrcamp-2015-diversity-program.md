@@ -41,5 +41,17 @@ and submit it. We will be in touch as soon as we can to let you know if you will
 be given a ticket!
 
 
+### Special word of thanks
+
+We'd like to thank eurucamp, Ruby Berlin e.V., Twilio and PullReview for offering
+these tickets but there is one more organisation I would like to thank.
+
+The [Travis Foundation](http://foundation.travis-ci.org) has been helping us set
+this up and organize the whole process. On top of that they've given us some
+tips on how to make the conference even more welcoming for everyone that wants
+to attend. Check out their site to learn more about what they do to make an even
+better open source community!
+
+
 Hope to see you soon!
 The Captain and crew
