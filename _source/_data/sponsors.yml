@@ -7,6 +7,14 @@
   logo: codeship.png
   url: https://codeship.com
   type: gold
+- name: LocaleApp
+  logo: localeapp.png
+  url: https://www.localeapp.com
+  type: silver
+- name: Twilio
+  logo: twilio.png
+  url: https://twilio.com
+  type: silver
 - name: PullReview
   logo: pullreview.png
   url: https://pullreview.com
