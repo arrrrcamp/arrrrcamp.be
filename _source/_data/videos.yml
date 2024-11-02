@@ -186,122 +186,127 @@
 -
   name: Dave Worth
   title: Static Analysis and Rails Security
-  url: https://vimeo.com/51635385
+  url: https://www.youtube.com/watch?v=flfzoZq7pQ0
   edition: 2012
 -
   name: Bartlomiej Niemtur
   title: Better State Management
-  url: https://vimeo.com/51528463
+  url: https://www.youtube.com/watch?v=_c-pjQ1QvW4
   edition: 2012
 -
   name: Laurent Sansonetti
   title: "RubyMotion: Ruby in your pocket"
-  url: https://vimeo.com/51898265
+  url: https://www.youtube.com/watch?v=_eyfwpb8KxI
   edition: 2012
 -
   name: 'Roy Tomeij'
   title: 'Modular & reusable front-end code with HTML5, Sass and CoffeeScript'
-  url: https://vimeo.com/51529598
+  url: https://www.youtube.com/watch?v=nB6Axo9W77Q
   edition: 2012
 -
   name: Jakob Hilden
   title: 'SMURF: Scalable, Modular, reUsable Rails Frontends'
-  url: https://vimeo.com/51903907
+  url: https://www.youtube.com/watch?v=TtbpC46b1Uk
   edition: 2012
 -
   name: Eric Nordmeyer
   title: Why the Beatles get more airplay than Mozart
-  url: https://vimeo.com/51528465
+  url: https://www.youtube.com/watch?v=IDz6tD13Nis
   edition: 2012
 -
   name: Ryan Stenhouse
   title: "Cultured localisation, or 'how not to offend 1 billion people'"
-  url: https://vimeo.com/51634570
+  url: https://www.youtube.com/watch?v=t_riQ5vE5Bk
   edition: 2012
 -
   name: Bernard Grymonpon
   title: Testing Chef Recipes
-  url: https://vimeo.com/51911896
+  url: https://www.youtube.com/watch?v=ZSi2iozKmUE
   edition: 2012
 -
   name: Yann Armand
   title: "Dealing with Scale at Yammer: Caching and Services"
-  url: https://vimeo.com/51529599
+  url: https://www.youtube.com/watch?v=s-6bn68fRgA
   edition: 2012
 -
   name: Katrina Owen
   title: Therapeutic Refactoring
-  url: https://vimeo.com/51634446
+  url: https://www.youtube.com/watch?v=U6qEuXt0d3w
   edition: 2012
 -
   name: Ben Noordhuis
   title: NodeJS
-  url: https://vimeo.com/51637038
+  url: https://www.youtube.com/watch?v=pQ6E-3Wj9E0
   edition: 2012
 -
   name: Konstantin Haase
   title: We don't know HTTP
-  url: https://vimeo.com/51903877
+  url: https://www.youtube.com/watch?v=duhmyBzRHjc
   edition: 2012
 -
   name: Yehuda Katz
   title: Crying Over Spilt Cruft
-  url: https://vimeo.com/51903878
+  url: https://www.youtube.com/watch?v=EwXTNLsgxuE
   edition: 2012
 -
   name: Bryan Liles
   title: Simulating the WORLD with Ruby
-  url: https://vimeo.com/51898786
+  url: https://www.youtube.com/watch?v=-Zn4L9k8cYk
   edition: 2012
 -
   name: Elliott Kember
   title: The War on Users
-  url: https://vimeo.com/51637878
+  url: https://www.youtube.com/watch?v=B2iDnVFyges
   edition: 2012
 -
   name: Steve Klabnik
   title: Why should I care about Rails 4?
-  url: https://vimeo.com/51898266
+  url: https://www.youtube.com/watch?v=NCAnDwOquKs
   edition: 2012
 -
   name: Jim Weirich
   title: Y Not? - Adventures in Functional Programming
-  url: https://vimeo.com/51898267
+  url: https://www.youtube.com/watch?v=OjCCTEeq-KY
   edition: 2012
 -
   name: Adam Rogers
   title: Bug Requests and Pull Reports
-  url: https://vimeo.com/51528462
+  url: https://www.youtube.com/watch?v=VSJMktW5mnw
   edition: 2012
 -
   name: Phil Nash
   title: JavaScript in the next generation
-  url: https://vimeo.com/51903881
+  url: https://www.youtube.com/watch?v=eO7cZ_9Kti4
   edition: 2012
 -
   name: Piotr Sarnacki
   title: Using Rails without Rails
-  url: https://vimeo.com/51903882
+  url: https://www.youtube.com/watch?v=6rZqdlPy8ik
   edition: 2012
 -
   name: Peter Berkenbosch
   title: Spree from the trenches
-  url: https://vimeo.com/51903880
+  url: https://www.youtube.com/watch?v=UrZzQJ24TGQ
   edition: 2012
 -
   name: Piotr Szotkowski
   title: 'Persist, Little Objects!'
-  url: https://vimeo.com/51636332
+  url: https://www.youtube.com/watch?v=mLiBwk1hIro
   edition: 2012
 -
   name: Julien Biezemans
   title: "Cucumber.js: Cuke up your JavaScript!"
-  url: https://vimeo.com/51529597
+  url: https://www.youtube.com/watch?v=m1AxuJLzDgw
   edition: 2012
 -
   name: Aleksander Dąbrowski
   title: Sinatra autopsy
-  url: https://vimeo.com/51898788
+  url: https://www.youtube.com/watch?v=cmMK_W6mRyQ
+  edition: 2012
+-
+  name: Lots of people
+  title: Lightning Talk
+  url: https://www.youtube.com/watch?v=12v3-rzvCSY
   edition: 2012
 -
   name: Ryan Stenhouse
